@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DbOp version="1.0">
+    <Datasource name="UATColmena"/>
+    <DbObject name="dbo.Arp_Prestadores_Ivr" returntype="-1" selectall="false" type="table">
+        <DbObjectParam datatype="12" field="idPrestador" function="" name="IdPrestador" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="ConsultaPrestador"/>
+        <DbObjectParam datatype="12" field="codGrabacion" function="" name="CodGrabacion" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="ConsultaPrestador"/>
+    </DbObject>
+    <Operation name="Query">
+        <Qualifier name="distinct" value="false"/>
+    </Operation>
+    <Clause>
+        <Where>
+            <Condition name="Simple" type="Simple">
+                <Operand datatype="4" name="ID" tablename="dbo.Arp_Prestadores_Ivr" type="column" typename="int identity"/>
+                <Operator type="Comparison" value="="/>
+                <Operand datatype="12" field="id" name="ConsultaPrestador" type="variable" typename=""/>
+            </Condition>
+        </Where>
+    </Clause>
+    <Clause>
+        <Order/>
+    </Clause>
+    <SQLQuery>SELECT Arp_Prestadores_Ivr.IdPrestador, Arp_Prestadores_Ivr.CodGrabacion FROM dbo.Arp_Prestadores_Ivr WHERE  ( Arp_Prestadores_Ivr.ID = ? )</SQLQuery>
+</DbOp>

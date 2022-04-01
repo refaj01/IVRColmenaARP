@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DbOp version="1.0">
+    <Datasource name="UATColmena"/>
+    <DbObject name="dbo.ARP_Datos_Ivr_SP;1" returntype="2" selectall="false" type="procedure">
+        <DbObjectParam datatype="4" field="resultado" function="" name="@RETURN_VALUE" sqltype="" tablename="ARP_Datos_Ivr_SP;1" type="return" typename="INTEGER" variable="insertaDatosBD"/>
+        <DbObjectParam datatype="12" field="datos" function="" name="@datos" sqltype="" tablename="ARP_Datos_Ivr_SP;1" type="in" typename="VARCHAR" variable="insertaDatosBD"/>
+        <DbObjectParam datatype="4" field="llave" function="" name="@llave" sqltype="" tablename="ARP_Datos_Ivr_SP;1" type="in-out" typename="INTEGER" variable="insertaDatosBD"/>
+    </DbObject>
+    <Operation name="Execute"/>
+    <Clause>
+        <Where/>
+    </Clause>
+    <Clause>
+        <Order/>
+    </Clause>
+    <SQLQuery>{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }</SQLQuery>
+</DbOp>

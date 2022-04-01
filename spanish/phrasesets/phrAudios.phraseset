@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="phrAudios" version="1.0">
+    <phrase version="1.0">
+        <displayname>Bienvenida</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>IVR.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>DigitaNIT</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>NIT.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Despedida</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>TXT14.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ConfirmacionA</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>NumeroDigitadoEs.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>ConfirmacionB</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>SiEsCorrectoMarque.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>DigitaIdentificacion</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>MENU3.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Validacion</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>SuNumeroDeValidacionDeDerechosEs.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Repetir</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>ParaRepetirMarque1.wav</audiofile>
+    </phrase>
+</phraseset>

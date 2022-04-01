@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2011 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+    <context-param>
+        <param-name>sage.startlanguage</param-name>
+        <param-value>spanish</param-value>
+        <description>The starting language for the application.</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.ic.throwexceptions</param-name>
+        <param-value>true</param-value>
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+        <param-value>true</param-value>
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-ASR</param-name>
+        <param-value>SRGS-Literals</param-value>
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-SSML</param-name>
+        <param-value>true</param-value>
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-nature</param-name>
+        <param-value>speech</param-value>
+        <description>Application nature, speech or message</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-Platform</param-name>
+        <param-value>Experience Portal</param-value>
+        <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-VXML-Compatibility</param-name>
+        <param-value>2.1</param-value>
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+    </context-param>
+    <context-param>
+        <param-name>runtime-DTMF-Native</param-name>
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+    </context-param>
+    <context-param>
+        <param-name>allow-html-mode</param-name>
+        <param-value>false</param-value>
+        <description>Allows html mode in speech applications.</description>
+    </context-param>
+    <context-param>
+        <param-name>CollectionSeparator</param-name>
+        <param-value>|</param-value>
+        <description>Collection Separator Char</description>
+    </context-param>
+    <context-param>
+        <param-name>grammar-caching</param-name>
+        <param-value>none</param-value>
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+    </context-param>
+    <context-param>
+        <param-name>dd.ds.UATColmena</param-name>
+        <param-value>refaj01|zyD+6AyZLTo4/+HL02x9ZA==|com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+        <description>Datasource information</description>
+    </context-param>
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+    </servlet>
+    <servlet id="avayadefaultexithandler-servlet">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+    </servlet>
+    <servlet id="avayasessiontermination-servlet">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+    </servlet>
+    <servlet id="CheckAdminVariableInfo-servlet">
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+        <servlet-class>com.avaya.sce.runtimecommon.CheckAdminVariableInfo</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorhandler-servlet">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+    </servlet>
+    <servlet id="avayareturnerrorthrow-servlet">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <servlet-class>flow.AppRoot</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_0">
+        <servlet-name>Start</servlet-name>
+        <servlet-class>flow.Start</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_16">
+        <servlet-name>retFin</servlet-name>
+        <servlet-class>flow.retFin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_33">
+        <servlet-name>pacDigitaNIT</servlet-name>
+        <servlet-class>flow.pacDigitaNIT</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_24">
+        <servlet-name>anuBienvenida</servlet-name>
+        <servlet-class>flow.anuBienvenida</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_48">
+        <servlet-name>anuDespedida</servlet-name>
+        <servlet-class>flow.anuDespedida</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_56">
+        <servlet-name>menConfirma</servlet-name>
+        <servlet-class>flow.menConfirma</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_77">
+        <servlet-name>pacDigitaIdentificacion</servlet-name>
+        <servlet-class>flow.pacDigitaIdentificacion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_93">
+        <servlet-name>pacConfirmaIdentificacion</servlet-name>
+        <servlet-class>flow.pacConfirmaIdentificacion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_109">
+        <servlet-name>datValidaConfirmacionIdentificacion</servlet-name>
+        <servlet-class>flow.datValidaConfirmacionIdentificacion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_123">
+        <servlet-name>codConsultaPrestadorWS</servlet-name>
+        <servlet-class>flow.codConsultaPrestadorWS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_137">
+        <servlet-name>insertaDatos</servlet-name>
+        <servlet-class>flow.insertaDatos</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_155">
+        <servlet-name>datTransfer</servlet-name>
+        <servlet-class>flow.datTransfer</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_168">
+        <servlet-name>bliTransfer</servlet-name>
+        <servlet-class>flow.bliTransfer</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_188">
+        <servlet-name>datConsultaPrestador</servlet-name>
+        <servlet-class>flow.datConsultaPrestador</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_199">
+        <servlet-name>codObtenerAiuIVRWS</servlet-name>
+        <servlet-class>flow.codObtenerAiuIVRWS</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_233">
+        <servlet-name>menAudioValidacion</servlet-name>
+        <servlet-class>flow.menAudioValidacion</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="CheckAdminVariableInfo-servletmapping">
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+        <url-pattern>/CheckAdminVariableInfo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+        <servlet-name>AppRoot</servlet-name>
+        <url-pattern>/AppRoot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_16">
+        <servlet-name>retFin</servlet-name>
+        <url-pattern>/retFin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_33">
+        <servlet-name>pacDigitaNIT</servlet-name>
+        <url-pattern>/pacDigitaNIT</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_24">
+        <servlet-name>anuBienvenida</servlet-name>
+        <url-pattern>/anuBienvenida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_48">
+        <servlet-name>anuDespedida</servlet-name>
+        <url-pattern>/anuDespedida</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_56">
+        <servlet-name>menConfirma</servlet-name>
+        <url-pattern>/menConfirma</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_77">
+        <servlet-name>pacDigitaIdentificacion</servlet-name>
+        <url-pattern>/pacDigitaIdentificacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_93">
+        <servlet-name>pacConfirmaIdentificacion</servlet-name>
+        <url-pattern>/pacConfirmaIdentificacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_109">
+        <servlet-name>datValidaConfirmacionIdentificacion</servlet-name>
+        <url-pattern>/datValidaConfirmacionIdentificacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_123">
+        <servlet-name>codConsultaPrestadorWS</servlet-name>
+        <url-pattern>/codConsultaPrestadorWS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_137">
+        <servlet-name>insertaDatos</servlet-name>
+        <url-pattern>/insertaDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_155">
+        <servlet-name>datTransfer</servlet-name>
+        <url-pattern>/datTransfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_168">
+        <servlet-name>bliTransfer</servlet-name>
+        <url-pattern>/bliTransfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_188">
+        <servlet-name>datConsultaPrestador</servlet-name>
+        <url-pattern>/datConsultaPrestador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_199">
+        <servlet-name>codObtenerAiuIVRWS</servlet-name>
+        <url-pattern>/codObtenerAiuIVRWS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_233">
+        <servlet-name>menAudioValidacion</servlet-name>
+        <url-pattern>/menAudioValidacion</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

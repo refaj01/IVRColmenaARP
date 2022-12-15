@@ -2,8 +2,8 @@
 <DbOp version="1.0">
     <Datasource name="UATColmena"/>
     <DbObject name="dbo.Arp_Prestadores_Ivr" returntype="-1" selectall="false" type="table">
-        <DbObjectParam datatype="12" field="idPrestador" function="" name="IdPrestador" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="ConsultaPrestador"/>
-        <DbObjectParam datatype="12" field="codGrabacion" function="" name="CodGrabacion" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="ConsultaPrestador"/>
+        <DbObjectParam datatype="12" function="" name="IdPrestador" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="UUIData"/>
+        <DbObjectParam datatype="12" function="" name="CodGrabacion" sqltype="" tablename="Arp_Prestadores_Ivr" type="" typename="VARCHAR" variable="UUIData"/>
     </DbObject>
     <Operation name="Query">
         <Qualifier name="distinct" value="false"/>

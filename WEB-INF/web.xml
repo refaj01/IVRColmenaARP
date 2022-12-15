@@ -5,8 +5,7 @@ application development environment.  While manual updates to this
 file may be preserved, it is best to manage this file through the application development environment tool.
 
 Copyright 2004-2011 Avaya Inc.
---><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
-<web-app id="WebApp_ID">
+--><web-app id="WebApp_ID" version="3.0">
     <context-param>
         <param-name>sage.startlanguage</param-name>
         <param-value>spanish</param-value>
@@ -24,7 +23,7 @@ Copyright 2004-2011 Avaya Inc.
     </context-param>
     <context-param>
         <param-name>runtime-ASR</param-name>
-        <param-value>SRGS-Literals</param-value>
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
         <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
     </context-param>
     <context-param>
@@ -39,7 +38,7 @@ Copyright 2004-2011 Avaya Inc.
     </context-param>
     <context-param>
         <param-name>runtime-Platform</param-name>
-        <param-value>Experience Portal</param-value>
+        <param-value>Desktop</param-value>
         <description>Runtime Platform {Desktop|Voice Portal|Experience Portal|Other|IR|MPS}</description>
     </context-param>
     <context-param>
@@ -69,8 +68,138 @@ Copyright 2004-2011 Avaya Inc.
     </context-param>
     <context-param>
         <param-name>dd.ds.UATColmena</param-name>
-        <param-value>refaj01|zyD+6AyZLTo4/+HL02x9ZA==|com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+        <param-value>encuesta|gE/P5/cMsXGQH0NVHE9K/g==|com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
         <description>Datasource information</description>
+    </context-param>
+    <context-param>
+        <param-name>avaya.pim.dataconnector.config</param-name>
+        <param-value>|||i5/PolNOtdo=</param-value>
+        <description>POM Data Connector configuration settings.</description>
+    </context-param>
+    <context-param>
+        <param-name>log4jConfiguration</param-name>
+        <param-value>data/ddlog4j2.xml</param-value>
+        <description>Log4j2 Configuration File</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400048TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049EndpointUrl</param-name>
+        <param-value>http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx</param-value>
+        <description>Web Service end point for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049Username</param-name>
+        <param-value/>
+        <description>Username for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049UserNameTokenTimeout</param-name>
+        <param-value>300</param-value>
+        <description>Username token timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SendPasswordInClear</param-name>
+        <param-value/>
+        <description>Send password in clear for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SigningEnabled</param-name>
+        <param-value>false</param-value>
+        <description>Is soap signing enabled [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SigningAlias</param-name>
+        <param-value/>
+        <description>The Alias used when signing soap messages [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SigningKeystorePassword</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Password to the keystore use for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SigningKeystorePath</param-name>
+        <param-value/>
+        <description>Path to the keystore for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121400049SigningProvider</param-name>
+        <param-value>SUN</param-value>
+        <description>The provider used for the soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636EndpointUrl</param-name>
+        <param-value>http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx</param-value>
+        <description>Web Service end point for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636Username</param-name>
+        <param-value/>
+        <description>Username for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636UserNameTokenTimeout</param-name>
+        <param-value>300</param-value>
+        <description>Username token timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SendPasswordInClear</param-name>
+        <param-value/>
+        <description>Send password in clear for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SigningEnabled</param-name>
+        <param-value>false</param-value>
+        <description>Is soap signing enabled [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SigningAlias</param-name>
+        <param-value/>
+        <description>The Alias used when signing soap messages [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SigningKeystorePassword</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Password to the keystore use for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SigningKeystorePath</param-name>
+        <param-value/>
+        <description>Path to the keystore for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671121401636SigningProvider</param-name>
+        <param-value>SUN</param-value>
+        <description>The provider used for the soap signing [ConsultasIvr]</description>
     </context-param>
     <servlet id="avayadefaultdisconnecthandler-servlet">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -121,29 +250,17 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.anuDespedida</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_56">
-        <servlet-name>menConfirma</servlet-name>
-        <servlet-class>flow.menConfirma</servlet-class>
+        <servlet-name>menConfirmaNIT</servlet-name>
+        <servlet-class>flow.menConfirmaNIT</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_77">
         <servlet-name>pacDigitaIdentificacion</servlet-name>
         <servlet-class>flow.pacDigitaIdentificacion</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_main_93">
-        <servlet-name>pacConfirmaIdentificacion</servlet-name>
-        <servlet-class>flow.pacConfirmaIdentificacion</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_main_109">
-        <servlet-name>datValidaConfirmacionIdentificacion</servlet-name>
-        <servlet-class>flow.datValidaConfirmacionIdentificacion</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_main_123">
-        <servlet-name>codConsultaPrestadorWS</servlet-name>
-        <servlet-class>flow.codConsultaPrestadorWS</servlet-class>
-    </servlet>
-    <servlet id="SAGE-callflow-servlet_main_137">
-        <servlet-name>insertaDatos</servlet-name>
-        <servlet-class>flow.insertaDatos</servlet-class>
-    </servlet>
+    
+    
+    
+    
     <servlet id="SAGE-callflow-servlet_main_155">
         <servlet-name>datTransfer</servlet-name>
         <servlet-class>flow.datTransfer</servlet-class>
@@ -153,17 +270,28 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>flow.bliTransfer</servlet-class>
     </servlet>
     
-    <servlet id="SAGE-callflow-servlet_main_188">
-        <servlet-name>datConsultaPrestador</servlet-name>
-        <servlet-class>flow.datConsultaPrestador</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_main_199">
-        <servlet-name>codObtenerAiuIVRWS</servlet-name>
-        <servlet-class>flow.codObtenerAiuIVRWS</servlet-class>
+        <servlet-name>datObtenerAiuIVRWS</servlet-name>
+        <servlet-class>flow.datObtenerAiuIVRWS</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_233">
         <servlet-name>menAudioValidacion</servlet-name>
         <servlet-class>flow.menAudioValidacion</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_249">
+        <servlet-name>menConfirmaIdent</servlet-name>
+        <servlet-class>flow.menConfirmaIdent</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_300">
+        <servlet-name>insertaDatos</servlet-name>
+        <servlet-class>flow.insertaDatos</servlet-class>
+    </servlet>
+    <servlet id="AdminVariableInfo-servlet">
+        <servlet-name>AdminVariableInfo</servlet-name>
+        <servlet-class>com.avaya.vp.admin.variables.runtime.AdminVariableInfo</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -214,29 +342,17 @@ Copyright 2004-2011 Avaya Inc.
         <url-pattern>/anuDespedida</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_56">
-        <servlet-name>menConfirma</servlet-name>
-        <url-pattern>/menConfirma</url-pattern>
+        <servlet-name>menConfirmaNIT</servlet-name>
+        <url-pattern>/menConfirmaNIT</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_77">
         <servlet-name>pacDigitaIdentificacion</servlet-name>
         <url-pattern>/pacDigitaIdentificacion</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_93">
-        <servlet-name>pacConfirmaIdentificacion</servlet-name>
-        <url-pattern>/pacConfirmaIdentificacion</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_109">
-        <servlet-name>datValidaConfirmacionIdentificacion</servlet-name>
-        <url-pattern>/datValidaConfirmacionIdentificacion</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_123">
-        <servlet-name>codConsultaPrestadorWS</servlet-name>
-        <url-pattern>/codConsultaPrestadorWS</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_137">
-        <servlet-name>insertaDatos</servlet-name>
-        <url-pattern>/insertaDatos</url-pattern>
-    </servlet-mapping>
+    
+    
+    
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_main_155">
         <servlet-name>datTransfer</servlet-name>
         <url-pattern>/datTransfer</url-pattern>
@@ -245,17 +361,27 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>bliTransfer</servlet-name>
         <url-pattern>/bliTransfer</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_188">
-        <servlet-name>datConsultaPrestador</servlet-name>
-        <url-pattern>/datConsultaPrestador</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_main_199">
-        <servlet-name>codObtenerAiuIVRWS</servlet-name>
-        <url-pattern>/codObtenerAiuIVRWS</url-pattern>
+        <servlet-name>datObtenerAiuIVRWS</servlet-name>
+        <url-pattern>/datObtenerAiuIVRWS</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_233">
         <servlet-name>menAudioValidacion</servlet-name>
         <url-pattern>/menAudioValidacion</url-pattern>
     </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_249">
+        <servlet-name>menConfirmaIdent</servlet-name>
+        <url-pattern>/menConfirmaIdent</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_300">
+        <servlet-name>insertaDatos</servlet-name>
+        <url-pattern>/insertaDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="AdminVariableInfo-servletmapping">
+        <servlet-name>AdminVariableInfo</servlet-name>
+        <url-pattern>/AdminVariableInfo</url-pattern>
+    </servlet-mapping>
+    
     
 </web-app>

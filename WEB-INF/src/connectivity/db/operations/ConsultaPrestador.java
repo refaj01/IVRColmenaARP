@@ -30,8 +30,8 @@ public class ConsultaPrestador extends com.avaya.sce.runtime.connectivity.db.DbQ
 
 		// Parameters
 		com.avaya.sce.runtime.connectivity.db.DbQueryParam parameter;
-		addParameter(new com.avaya.sce.runtime.connectivity.db.DbQueryParam("IdPrestador",0,12, "ConsultaPrestador:idPrestador"));
-		addParameter(new com.avaya.sce.runtime.connectivity.db.DbQueryParam("CodGrabacion",0,12, "ConsultaPrestador:codGrabacion"));
+		addParameter(new com.avaya.sce.runtime.connectivity.db.DbQueryParam("IdPrestador",0,12, "UUIData"));
+		addParameter(new com.avaya.sce.runtime.connectivity.db.DbQueryParam("CodGrabacion",0,12, "UUIData"));
 
 		// Where parameters
 		addWhereParameter(new com.avaya.sce.runtime.connectivity.db.DbQueryParam("ID",0,4,"ConsultaPrestador:id"));

@@ -21,13 +21,13 @@ public class ConsultaIVR extends com.avaya.sce.runtime.connectivity.ws2.CallServ
         //Web Service
         setServiceName("ConsultasIvr");
         setSOAPAction("http://www.colmena.arp.com.co/ObtenerAiuIvr");
-        setTimeoutSecondsFromParameter("ConsultasIvr_1671121400048TimeoutSeconds");
-        setEndpointFromParameter("ConsultasIvr_1671121400049EndpointUrl");
-        setAuthenticationFromParameter("ConsultasIvr_1671121400049Authentication");
-        setPasswordFromParameter("ConsultasIvr_1671121400049Password");
-        setUsernameFromParameter("ConsultasIvr_1671121400049Username");
-        setUsernameTokenTimeoutFromParameter("ConsultasIvr_1671121400049UserNameTokenTimeout");
-        setSendPasswordInClearFromParameter("ConsultasIvr_1671121400049SendPasswordInClear");
+        setTimeoutSecondsFromParameter("ConsultasIvr_1671137464229TimeoutSeconds");
+        setEndpointFromParameter("ConsultasIvr_1671137464229EndpointUrl");
+        setAuthenticationFromParameter("ConsultasIvr_1671137464229Authentication");
+        setPasswordFromParameter("ConsultasIvr_1671137464229Password");
+        setUsernameFromParameter("ConsultasIvr_1671137464229Username");
+        setUsernameTokenTimeoutFromParameter("ConsultasIvr_1671137464229UserNameTokenTimeout");
+        setSendPasswordInClearFromParameter("ConsultasIvr_1671137464229SendPasswordInClear");
 
         //Operation
         setOperation(new javax.xml.namespace.QName("http://www.colmena.arp.com.co/", "ObtenerAiuIvr"));
@@ -78,6 +78,8 @@ public class ConsultaIVR extends com.avaya.sce.runtime.connectivity.ws2.CallServ
             addOutParameter(param1);
         }
         //}}END:CLASS:CONSTRUCTOR
+
+
 
 
 

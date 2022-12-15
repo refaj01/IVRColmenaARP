@@ -201,6 +201,66 @@ Copyright 2004-2011 Avaya Inc.
         <param-value>SUN</param-value>
         <description>The provider used for the soap signing [ConsultasIvr]</description>
     </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229TimeoutSeconds</param-name>
+        <param-value>45</param-value>
+        <description>Web Service timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229EndpointUrl</param-name>
+        <param-value>http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx</param-value>
+        <description>Web Service end point for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229Authentication</param-name>
+        <param-value>No Authentication</param-value>
+        <description>Authentication for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229Username</param-name>
+        <param-value/>
+        <description>Username for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229Password</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Encrypted password for web service [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229UserNameTokenTimeout</param-name>
+        <param-value>300</param-value>
+        <description>Username token timeout for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SendPasswordInClear</param-name>
+        <param-value/>
+        <description>Send password in clear for [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SigningEnabled</param-name>
+        <param-value>false</param-value>
+        <description>Is soap signing enabled [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SigningAlias</param-name>
+        <param-value/>
+        <description>The Alias used when signing soap messages [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SigningKeystorePassword</param-name>
+        <param-value>i5/PolNOtdo=</param-value>
+        <description>Password to the keystore use for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SigningKeystorePath</param-name>
+        <param-value/>
+        <description>Path to the keystore for soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>ConsultasIvr_1671137464229SigningProvider</param-name>
+        <param-value>SUN</param-value>
+        <description>The provider used for the soap signing [ConsultasIvr]</description>
+    </context-param>
     <servlet id="avayadefaultdisconnecthandler-servlet">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>

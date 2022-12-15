@@ -59,24 +59,10 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.DATE, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.UUIPREFIX, "", null, session, false, false );
-		session.putVariable(variable);
-
 		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.VDNTRANSFER, "", null, session, false, false );
 		session.putVariable(variable);
 
 		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.REPETICIONES, "3", null, session, false, false );
-		session.putVariable(variable);
-
-		variableFields = new String[] {
-			IProjectVariables.MEN_CONFIRMA_FIELD_CONFIDENCE,
-			IProjectVariables.MEN_CONFIRMA_FIELD_INPUTMODE,
-			IProjectVariables.MEN_CONFIRMA_FIELD_INTERPRETATION,
-			IProjectVariables.MEN_CONFIRMA_FIELD_NOINPUTCOUNT,
-			IProjectVariables.MEN_CONFIRMA_FIELD_NOMATCHCOUNT,
-			IProjectVariables.MEN_CONFIRMA_FIELD_UTTERANCE,
-			IProjectVariables.MEN_CONFIRMA_FIELD_VALUE };
-		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.MEN_CONFIRMA, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {
@@ -88,12 +74,6 @@ public class Start extends com.avaya.sce.runtime.Entry {
 			IProjectVariables.PAC_DIGITA_NIT_FIELD_UTTERANCE,
 			IProjectVariables.PAC_DIGITA_NIT_FIELD_VALUE };
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.PAC_DIGITA_NIT, variableFields, null, session, false, false );
-		session.putVariable(variable);
-
-		variableFields = new String[] {
-			IProjectVariables.CONSULTA_PRESTADOR_WS_FIELD_ID_PRESTADOR,
-			IProjectVariables.CONSULTA_PRESTADOR_WS_FIELD_NUMERO_PRESTADORES };
-		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.CONSULTA_PRESTADOR_WS, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {
@@ -110,22 +90,12 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.BLI_TRANSFER, "", null, session, false, false );
 		session.putVariable(variable);
 
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.ERROR_WS, "false", null, session, false, false );
-		session.putVariable(variable);
-
 		variableFields = new String[] {
 			IProjectVariables.REDIRECTINFO_FIELD_PRESENTATIONINFO,
 			IProjectVariables.REDIRECTINFO_FIELD_REASON,
 			IProjectVariables.REDIRECTINFO_FIELD_SCREENINGINFO,
 			IProjectVariables.REDIRECTINFO_FIELD_URI };
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.REDIRECTINFO, variableFields, null, session, false, false );
-		session.putVariable(variable);
-
-		variableFields = new String[] {
-			IProjectVariables.CONSULTA_PRESTADOR_FIELD_COD_GRABACION,
-			IProjectVariables.CONSULTA_PRESTADOR_FIELD_ID,
-			IProjectVariables.CONSULTA_PRESTADOR_FIELD_ID_PRESTADOR };
-		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.CONSULTA_PRESTADOR, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {
@@ -179,18 +149,18 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.INSERTA_DATOS_BD, variableFields, new String[] {"", "0", ""}, null, session, false, false );
 		session.putVariable(variable);
 
-		variableFields = new String[] {
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_CONFIDENCE,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_INPUTMODE,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_INTERPRETATION,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_NOINPUTCOUNT,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_NOMATCHCOUNT,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_UTTERANCE,
-			IProjectVariables.PAC_CONFIRMA_IDENTIFICACION_FIELD_VALUE };
-		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.PAC_CONFIRMA_IDENTIFICACION, variableFields, null, session, false, false );
+		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.UUIDATA, "", null, session, false, false );
 		session.putVariable(variable);
 
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.UUIDATA, "", null, session, false, false );
+		variableFields = new String[] {
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_CONFIDENCE,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_INPUTMODE,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_INTERPRETATION,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_NOINPUTCOUNT,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_NOMATCHCOUNT,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_UTTERANCE,
+			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_VALUE };
+		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.MEN_CONFIRMA_NIT, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {
@@ -202,7 +172,22 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.DD_LAST_EXCEPTION, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.OBTENER_AIU_IVRRESPUESTA, "", null, session, false, false );
+		variableFields = new String[] {
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_CONFIDENCE,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_INPUTMODE,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_INTERPRETATION,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_NOINPUTCOUNT,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_NOMATCHCOUNT,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_UTTERANCE,
+			IProjectVariables.MEN_CONFIRMA_IDENT_FIELD_VALUE };
+		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.MEN_CONFIRMA_IDENT, variableFields, null, session, false, false );
+		session.putVariable(variable);
+
+		variableFields = new String[] {
+			IProjectVariables.CONSULTA_OBTENER_AIU_IVR_FIELD_DOCUMENTO,
+			IProjectVariables.CONSULTA_OBTENER_AIU_IVR_FIELD_ID_PRESTADOR,
+			IProjectVariables.CONSULTA_OBTENER_AIU_IVR_FIELD_RESULT };
+		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.CONSULTA_OBTENER_AIU_IVR, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {

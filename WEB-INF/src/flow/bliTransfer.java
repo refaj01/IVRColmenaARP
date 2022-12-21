@@ -161,7 +161,7 @@ public class bliTransfer extends com.avaya.sce.runtime.Form {
 		promptNames = new java.util.ArrayList();
 
 		// create the transfer item
-		transfer = new com.avaya.sce.runtime.Transfer("bliTransfer", "VDNTransfer", com.avaya.sce.runtime.Transfer.VARIABLE, null, "0s", com.avaya.sce.runtime.Transfer.CONSTANT, "0s", com.avaya.sce.runtime.Transfer.TransferType.BLIND, promptNames, null, this, "UUIData", com.avaya.sce.runtime.Transfer.VARIABLE, false, true, com.avaya.sce.runtime.Transfer.Mode.SHARED_UUI, com.avaya.sce.runtime.Transfer.Protocol.SIP, "");
+		transfer = new com.avaya.sce.runtime.Transfer("bliTransfer", "VDN", com.avaya.sce.runtime.Transfer.VARIABLE, null, "0s", com.avaya.sce.runtime.Transfer.CONSTANT, "0s", com.avaya.sce.runtime.Transfer.TransferType.BLIND, promptNames, null, this, "UUIData", com.avaya.sce.runtime.Transfer.VARIABLE, false, true, com.avaya.sce.runtime.Transfer.Mode.SHARED_UUI, com.avaya.sce.runtime.Transfer.Protocol.SIP, "");
 		return transfer;
 	}
 	/**

@@ -70,8 +70,7 @@ public class datTransfer extends com.avaya.sce.runtime.Data {
 	public boolean executeDataActions(com.avaya.sce.runtimecommon.SCESession mySession) throws Exception {
 		java.util.Collection actions = null;
 
-		actions = new java.util.ArrayList(3);
-		actions.add(new com.avaya.sce.runtime.varoperations.Assign("VDNTransfer", "57817", true).setDebugId(167));
+		actions = new java.util.ArrayList(2);
 		actions.add(new com.avaya.sce.runtime.varoperations.Assign("UUIData", "insertaDatosBD:llave", false).setDebugId(315));
 		if(evaluateActions(actions, mySession)) {
 			return true;

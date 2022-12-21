@@ -59,12 +59,6 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.DATE, variableFields, null, session, false, false );
 		session.putVariable(variable);
 
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.VDNTRANSFER, "", null, session, false, false );
-		session.putVariable(variable);
-
-		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.REPETICIONES, "3", null, session, false, false );
-		session.putVariable(variable);
-
 		variableFields = new String[] {
 			IProjectVariables.PAC_DIGITA_NIT_FIELD_CONFIDENCE,
 			IProjectVariables.PAC_DIGITA_NIT_FIELD_INPUTMODE,
@@ -88,6 +82,9 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		session.putVariable(variable);
 
 		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.BLI_TRANSFER, "", null, session, false, false );
+		session.putVariable(variable);
+
+		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.ERROR_WS, "0", null, session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {
@@ -152,6 +149,9 @@ public class Start extends com.avaya.sce.runtime.Entry {
 		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.UUIDATA, "", null, session, false, false );
 		session.putVariable(variable);
 
+		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.VDN, "", "com.avaya.vp.admin.variables.runtime.AdminVariableFactory", session, false, false );
+		session.putVariable(variable);
+
 		variableFields = new String[] {
 			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_CONFIDENCE,
 			IProjectVariables.MEN_CONFIRMA_NIT_FIELD_INPUTMODE,
@@ -198,6 +198,9 @@ public class Start extends com.avaya.sce.runtime.Entry {
 			IProjectVariables.TIME_FIELD_SECOND,
 			IProjectVariables.TIME_FIELD_TIMEZONE };
 		variable = com.avaya.sce.runtime.ComplexVariable.createComplexVariable(IProjectVariables.TIME, variableFields, null, session, false, false );
+		session.putVariable(variable);
+
+		variable = com.avaya.sce.runtime.SimpleVariable.createSimpleVariable(IProjectVariables.INTENTOS, "", "com.avaya.vp.admin.variables.runtime.AdminVariableFactory", session, false, false );
 		session.putVariable(variable);
 
 		variableFields = new String[] {

@@ -110,13 +110,13 @@ public class pacDigitaNIT extends com.avaya.sce.runtime.Form {
 		// Item has no prompts associated
 		eventPromptNames = new java.util.ArrayList();
 
-		event = new com.avaya.sce.runtime.Event(com.avaya.sce.runtimecommon.SCERT.EVENT_NOINPUT, (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("anuDespedida", "repeticiones", true, ""));
+		event = new com.avaya.sce.runtime.Event(com.avaya.sce.runtimecommon.SCERT.EVENT_NOINPUT, (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("anuDespedida", "intentos", true, ""));
 		events.add(event);
 
 		// Item has no prompts associated
 		eventPromptNames = new java.util.ArrayList();
 
-		event = new com.avaya.sce.runtime.Event(com.avaya.sce.runtimecommon.SCERT.EVENT_NOMATCH, (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("anuDespedida", "repeticiones", true, ""));
+		event = new com.avaya.sce.runtime.Event(com.avaya.sce.runtimecommon.SCERT.EVENT_NOMATCH, (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("anuDespedida", "intentos", true, ""));
 		events.add(event);
 		properties = new java.util.ArrayList();
 

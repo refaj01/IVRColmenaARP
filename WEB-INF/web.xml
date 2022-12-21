@@ -203,7 +203,7 @@ Copyright 2004-2011 Avaya Inc.
     </context-param>
     <context-param>
         <param-name>ConsultasIvr_1671137464229TimeoutSeconds</param-name>
-        <param-value>45</param-value>
+        <param-value>10</param-value>
         <description>Web Service timeout for [ConsultasIvr]</description>
     </context-param>
     <context-param>
@@ -260,6 +260,11 @@ Copyright 2004-2011 Avaya Inc.
         <param-name>ConsultasIvr_1671137464229SigningProvider</param-name>
         <param-value>SUN</param-value>
         <description>The provider used for the soap signing [ConsultasIvr]</description>
+    </context-param>
+    <context-param>
+        <param-name>dd.ds.Produccion</param-name>
+        <param-value>ColmenaARP|aYh+qmLot3MYqkTq0Fo4kA==|com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+        <description>Datasource information</description>
     </context-param>
     <servlet id="avayadefaultdisconnecthandler-servlet">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
@@ -353,6 +358,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-class>com.avaya.vp.admin.variables.runtime.AdminVariableInfo</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
+    
+    
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
         <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
         <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
@@ -442,6 +449,8 @@ Copyright 2004-2011 Avaya Inc.
         <servlet-name>AdminVariableInfo</servlet-name>
         <url-pattern>/AdminVariableInfo</url-pattern>
     </servlet-mapping>
+    
+    
     
     
 </web-app>

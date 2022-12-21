@@ -128,9 +128,16 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
+    <variable factoryID="" name="errorWS" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="insertaDatosBD:datos" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="insertaDatosBD:llave" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="insertaDatosBD:resultado" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="com.avaya.vp.admin.variables.runtime.AdminVariableFactory" name="intentos" owner="" type="com.avaya.vp.adminVar" value="" version="1.0">
+        <editpolicies>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+        <property name="DefaltValue" value="2"/>
+    </variable>
     <variable factoryID="" name="menAudioValidacion:confidence" owner="com.avaya.sce.callflow" type="com.avaya.sce.callflow.menu" value="" version="1.0">
         <editpolicies>
             <policy name="opaque" value="true"/>
@@ -447,7 +454,6 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
-    <variable factoryID="" name="repeticiones" owner="" type="" value="3" version="1.0"/>
     <variable factoryID="" name="session:aai" owner="com.avaya.sce.core" type="com.avaya.sce.core.session" value="" version="1.0">
         <editpolicies>
             <policy name="valuesettable" value="false"/>
@@ -881,5 +887,10 @@
         </editpolicies>
     </variable>
     <variable factoryID="" name="UUIData" owner="" type="" value="" version="1.0"/>
-    <variable factoryID="" name="VDNTransfer" owner="" type="" value="" version="1.0"/>
+    <variable factoryID="com.avaya.vp.admin.variables.runtime.AdminVariableFactory" name="VDN" owner="" type="com.avaya.vp.adminVar" value="" version="1.0">
+        <editpolicies>
+            <policy name="valuesettable" value="false"/>
+        </editpolicies>
+        <property name="DefaltValue" value="57817"/>
+    </variable>
 </projectvariables>

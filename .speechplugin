@@ -67,6 +67,24 @@
                             </propertymap>
                             <nestedpropertystore/>
                         </propertystore>
+                        <propertystore id="Produccion" version="1.0">
+                            <propertymap>
+                                <property name="defaultMaxActive" value="10" version="1.0"/>
+                                <property name="validationQuery" value="select 1 from AnyTable" version="1.0"/>
+                                <property name="defaultMaxIdle" value="5" version="1.0"/>
+                                <property name="url" value="jdbc:sqlserver://CWCDAAVDBI01.BNITCLOUD.local;DatabaseName=ColmenaIVR;TrustServerCertificate=True" version="1.0"/>
+                                <property name="logAbandoned" value="true" version="1.0"/>
+                                <property name="testOnBorrow" value="false" version="1.0"/>
+                                <property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" version="1.0"/>
+                                <property name="removeAbandoned" value="true" version="1.0"/>
+                                <property name="name" value="Produccion" version="1.0"/>
+                                <property name="removeAbandonedTimeout" value="300" version="1.0"/>
+                                <property name="defaultMaxWait" value="10000" version="1.0"/>
+                                <property name="userpasswd" value="aYh+qmLot3MYqkTq0Fo4kA==" version="1.0"/>
+                                <property name="username" value="ColmenaARP" version="1.0"/>
+                            </propertymap>
+                            <nestedpropertystore/>
+                        </propertystore>
                     </nestedpropertystore>
                 </propertystore>
                 <propertystore id="ic_vrusm" version="1.0">

@@ -6,6 +6,45 @@
             <PageletDescription>IVRColmenaARP</PageletDescription>
             <PageletVersion>1.0</PageletVersion>
         </PageletHeader>
-        <PageletBody/>
+        <PageletBody>
+            <PageletFields>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>VDN</FieldName>
+                    <FieldDisplayName/>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>57817</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>false</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+                <PageletField>
+                    <FieldOrderID>999</FieldOrderID>
+                    <FieldName>intentos</FieldName>
+                    <FieldDisplayName/>
+                    <FieldType>String</FieldType>
+                    <FieldValidation>
+                        <StringValidation>
+                            <MinLength>0</MinLength>
+                            <MaxLength>2147483647</MaxLength>
+                        </StringValidation>
+                    </FieldValidation>
+                    <FieldDefaultValue>2</FieldDefaultValue>
+                    <IsFieldTemplatable>true</IsFieldTemplatable>
+                    <IsFieldMandatory>false</IsFieldMandatory>
+                    <FieldDescription/>
+                    <FieldAccessLevel>1</FieldAccessLevel>
+                    <FieldScope>Local</FieldScope>
+                </PageletField>
+            </PageletFields>
+        </PageletBody>
     </DataPagelet>
 </Pagelet>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <AppFlowDoc>
-    <ApplicationFlow nextObjectId="315" package="flow" version="5.0">
+    <ApplicationFlow nextObjectId="348" package="flow" version="5.0">
         <FlowGraph>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.AppRoot" id="1" version="3.1">
                 <Property name="Name" value="AppRoot"/>
@@ -84,7 +84,7 @@
                 <Property name="ReferencedNodeID" value="77"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Data" id="199" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="817"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="915"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="228"/>
                 <Property name="Name" value="datObtenerAiuIVRWS"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Data" id="200" version="1.2">
@@ -239,7 +239,7 @@
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="87" version="1.2">
                                             <ItemProperties>
                                                 <Property name="LinkedNodeID" value="90"/>
-                                                <Property name="threshold.var" value="repeticiones"/>
+                                                <Property name="threshold.var" value="intentos"/>
                                             </ItemProperties>
                                             <ChildItems/>
                                         </FlowItem>
@@ -251,7 +251,7 @@
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="88" version="1.2">
                                             <ItemProperties>
                                                 <Property name="LinkedNodeID" value="90"/>
-                                                <Property name="threshold.var" value="repeticiones"/>
+                                                <Property name="threshold.var" value="intentos"/>
                                             </ItemProperties>
                                             <ChildItems/>
                                         </FlowItem>
@@ -278,7 +278,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="212" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="1089"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="1187"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="259"/>
                 <Property name="ReferencedNodeID" value="155"/>
             </FlowNode>
@@ -320,14 +320,6 @@
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.LocalVariables" id="157" version="1.2">
                             <ItemProperties>
                                 <Property name="Name" value="LocalVariables"/>
-                            </ItemProperties>
-                            <ChildItems/>
-                        </FlowItem>
-                        <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Assignment" id="167" version="1.2">
-                            <ItemProperties>
-                                <Property name="destVarId" value="VDNTransfer"/>
-                                <Property name="type" value="assign"/>
-                                <Property name="sourceConstant" value="57817"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -382,7 +374,7 @@
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="44" version="1.2">
                                             <ItemProperties>
                                                 <Property name="LinkedNodeID" value="48"/>
-                                                <Property name="threshold.var" value="repeticiones"/>
+                                                <Property name="threshold.var" value="intentos"/>
                                             </ItemProperties>
                                             <ChildItems/>
                                         </FlowItem>
@@ -394,7 +386,7 @@
                                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="45" version="1.2">
                                             <ItemProperties>
                                                 <Property name="LinkedNodeID" value="48"/>
-                                                <Property name="threshold.var" value="repeticiones"/>
+                                                <Property name="threshold.var" value="intentos"/>
                                             </ItemProperties>
                                             <ChildItems/>
                                         </FlowItem>
@@ -417,7 +409,7 @@
                 <Property name="ReferencedNodeID" value="16"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="293" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="1402"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="1500"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="228"/>
                 <Property name="ReferencedNodeID" value="155"/>
             </FlowNode>
@@ -443,7 +435,7 @@
                                 <Property name="xfer.to.aacc.protocol" value="SIP"/>
                                 <Property name="xfer.to.aacc.mode" value="Shared UUI"/>
                                 <Property name="Name" value="bliTransfer"/>
-                                <Property name="DestinationNumberVarID" value="VDNTransfer"/>
+                                <Property name="DestinationNumberVarID" value="VDN"/>
                             </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
@@ -457,7 +449,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Menu" id="233" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="1131"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="1229"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="243"/>
                 <Property name="Name" value="menAudioValidacion"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Menu" id="234" version="1.2">
@@ -483,7 +475,6 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="241" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="245"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -495,7 +486,6 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="242" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="245"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -505,7 +495,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="106" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="575"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="590"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="274"/>
                 <Property name="ReferencedNodeID" value="48"/>
             </FlowNode>
@@ -618,12 +608,12 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="243" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="1366"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="1464"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="243"/>
                 <Property name="ReferencedNodeID" value="233"/>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.SymbolicNode" id="245" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="1347"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="1445"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="274"/>
                 <Property name="ReferencedNodeID" value="48"/>
             </FlowNode>
@@ -667,7 +657,7 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="64" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="68"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
+                                        <Property name="threshold.var" value="intentos"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -679,7 +669,7 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="65" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="68"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
+                                        <Property name="threshold.var" value="intentos"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -689,7 +679,7 @@
                 </FlowItem>
             </FlowNode>
             <FlowNode class="com.avaya.sce.callflow.internal.appflow.Menu" id="249" version="3.1">
-                <Property name="FlowNodeEditPart.WidgetX" value="352"/>
+                <Property name="FlowNodeEditPart.WidgetX" value="367"/>
                 <Property name="FlowNodeEditPart.WidgetY" value="228"/>
                 <Property name="Name" value="menConfirmaIdent"/>
                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Menu" id="250" version="1.2">
@@ -723,7 +713,7 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="255" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="106"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
+                                        <Property name="threshold.var" value="intentos"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -735,7 +725,7 @@
                                 <FlowItem class="com.avaya.sce.callflow.internal.flowitem.GoTo" id="257" version="1.2">
                                     <ItemProperties>
                                         <Property name="LinkedNodeID" value="106"/>
-                                        <Property name="threshold.var" value="repeticiones"/>
+                                        <Property name="threshold.var" value="intentos"/>
                                     </ItemProperties>
                                     <ChildItems/>
                                 </FlowItem>
@@ -877,14 +867,14 @@
                 <TargetNode id="245"/>
                 <Property name="Connection.SourceObjectID" value="241"/>
                 <Property name="Connection.TargetObjectID" value="245"/>
-                <Bendpoint x="1321" y="288"/>
+                <Bendpoint x="1419" y="288"/>
             </NodeConnection>
             <NodeConnection id="247" version="1.2">
                 <SourceNode id="233"/>
                 <TargetNode id="245"/>
                 <Property name="Connection.SourceObjectID" value="242"/>
                 <Property name="Connection.TargetObjectID" value="245"/>
-                <Bendpoint x="1344" y="315"/>
+                <Bendpoint x="1442" y="315"/>
             </NodeConnection>
             <NodeConnection id="258" version="1.2">
                 <SourceNode id="77"/>
@@ -922,16 +912,16 @@
                 <Property name="Connection.SourceObjectID" value="252"/>
                 <Property name="Connection.TargetObjectID" value="300"/>
             </NodeConnection>
-            <NodeConnection id="313" version="1.2">
-                <SourceNode id="300"/>
-                <TargetNode id="199"/>
-                <Property name="Connection.SourceObjectID" value="309"/>
-                <Property name="Connection.TargetObjectID" value="199"/>
-            </NodeConnection>
             <NodeConnection id="314" version="1.2">
                 <SourceNode id="300"/>
                 <TargetNode id="199"/>
                 <Property name="Connection.SourceObjectID" value="311"/>
+                <Property name="Connection.TargetObjectID" value="199"/>
+            </NodeConnection>
+            <NodeConnection id="348" version="1.2">
+                <SourceNode id="300"/>
+                <TargetNode id="199"/>
+                <Property name="Connection.SourceObjectID" value="309"/>
                 <Property name="Connection.TargetObjectID" value="199"/>
             </NodeConnection>
         </FlowGraph>

@@ -6346,3 +6346,506 @@ java.net.BindException: Cannot assign requested address: Datagram send failed
 21/12/2022 11:20:25:998  INFO - 142A82304096A3EC109AF7F27218824E:/IVRColmenaARP : SCESession Removed
 21/12/2022 11:20:25:998 DEBUG - 142A82304096A3EC109AF7F27218824E:/IVRColmenaARP : Removing 1 session stack frames.
 21/12/2022 11:20:25:998  INFO - 142A82304096A3EC109AF7F27218824E:/IVRColmenaARP : ** Popped Stack Frame [/IVRColmenaARP]
+22/12/2022 12:02:21:124  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : SCESession bound to HttpSession D7DB13D9F6756CB695651077FA146F21
+22/12/2022 12:02:21:134  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Browser Version 2.1.4, terminationURL enabled : true
+22/12/2022 12:02:21:141  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : Start
+22/12/2022 12:02:21:177  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : ** Pushed Stack Frame [/IVRColmenaARP]
+22/12/2022 12:02:21:187 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+22/12/2022 12:02:21:191 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+22/12/2022 12:02:21:191 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+22/12/2022 12:02:21:191 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:21:193 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Not able to save posted variable information [call_classification]
+22/12/2022 12:02:21:193  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___sessionid to complex: session:sessionid  as [sess1069791]
+22/12/2022 12:02:21:193  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+22/12/2022 12:02:21:827  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : runtime_platform : Desktop
+22/12/2022 12:02:21:827  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : runtime_asr : Desktop Microsoft Speech SAPI
+22/12/2022 12:02:21:845 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Acquiring initial License
+22/12/2022 12:02:21:845  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Acquiring Desktop runtime license
+22/12/2022 12:02:21:845  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Runtime :true
+22/12/2022 12:02:21:845  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : IC :true
+22/12/2022 12:02:21:845  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : CTI :true
+22/12/2022 12:02:21:905 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Grace Period timer cleared
+22/12/2022 12:02:21:906 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : License refresh timer started
+22/12/2022 12:02:21:908  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : MessageType is speech
+22/12/2022 12:02:21:909 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Initializer:applicationStarted:Initializing admin variables...
+22/12/2022 12:02:21:909 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Initializer:applicationStarted:__VPVarAppDate is 1671728541909
+22/12/2022 12:02:21:909 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Initializer:applicationStarted:Timestamp is 12/22/22 12:02:21
+22/12/2022 12:02:21:911 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Initializer:applicationStarted:Appname is IVRColmenaARP
+22/12/2022 12:02:21:912 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : AdminVarCache:init: Timestamp is different; Load parameters....
+22/12/2022 12:02:21:912 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : AdminVarCache:init: Module? false
+22/12/2022 12:02:21:912 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : AdminVarCache:init: loading simulation data...
+22/12/2022 12:02:21:914 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : VDN=>57817
+22/12/2022 12:02:21:915 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : intentos=>2
+22/12/2022 12:02:21:916 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : app params: {VDN=57817, intentos=2}
+22/12/2022 12:02:21:916 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : load param: VDN
+22/12/2022 12:02:21:917 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : load param: intentos
+22/12/2022 12:02:21:918 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : AdminVarCache:init: Finish loading.
+22/12/2022 12:02:21:945  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : anuBienvenida
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+22/12/2022 12:02:21:947  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___ani to complex: session:ani  as [3025841312]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___calltag to complex: session:calltag  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___channel to complex: session:channel  as [0]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___dnis to complex: session:dnis  as [569898]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___protocolname to complex: session:protocolname  as [pots]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___uui to complex: session:uui  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+22/12/2022 12:02:21:948  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videofps to complex: session:videofps  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+22/12/2022 12:02:21:949  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+22/12/2022 12:02:21:953 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Collection Mismatch, going bigger, New size is:7
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[1]  as [PD]
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[2]  as [C8]
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[3]  as [F7]
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[4]  as [F8]
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[5]  as [F5]
+22/12/2022 12:02:21:953  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[6]  as [F4]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:id[7]  as [FA]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[1]  as [04]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[2]  as [31323534303635]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[3]  as [0000]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[4]  as [0102]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[6]  as [8288AEAE]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Setting session:sessionlabel to ucid->00001018341670247984
+22/12/2022 12:02:21:954  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Setting session:ucid to ucid->00001018341670247984
+22/12/2022 12:02:22:061  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : pacDigitaNIT
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:133 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:22:134 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:22:135 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : menConfirmaNIT
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [123789]
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+22/12/2022 12:02:30:513  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [123789]
+22/12/2022 12:02:30:514  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [123789]
+22/12/2022 12:02:30:605 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:605 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:606 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:30:607 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:367  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : pacDigitaIdentificacion
+22/12/2022 12:02:35:367  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+22/12/2022 12:02:35:367  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+22/12/2022 12:02:35:367  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+22/12/2022 12:02:35:367  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+22/12/2022 12:02:35:368  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+22/12/2022 12:02:35:368  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+22/12/2022 12:02:35:368  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+22/12/2022 12:02:35:427 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:427 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:427 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:427 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:428 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:35:429 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:920  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : menConfirmaIdent
+22/12/2022 12:02:44:921  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+22/12/2022 12:02:44:921  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+22/12/2022 12:02:44:921  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [789456]
+22/12/2022 12:02:44:921  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+22/12/2022 12:02:44:921  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+22/12/2022 12:02:44:922  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [789456#]
+22/12/2022 12:02:44:922  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [789456]
+22/12/2022 12:02:44:984 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:985 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:987 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:988 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:988 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:988 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:02:44:990 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:02:47:422  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : insertaDatos
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+22/12/2022 12:02:47:424  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+22/12/2022 12:02:47:488  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+22/12/2022 12:02:47:489  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+22/12/2022 12:02:47:489  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+22/12/2022 12:02:47:489  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+22/12/2022 12:02:47:496 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+22/12/2022 12:02:47:936 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Rows affected : [1]
+22/12/2022 12:02:47:982  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : datObtenerAiuIVRWS
+22/12/2022 12:02:48:063  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+22/12/2022 12:02:48:063  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+22/12/2022 12:02:48:065 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : session id:sess1069791 | IVRColmenaARP:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 123789
+22/12/2022 12:02:48:065 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : session id:sess1069791 | IVRColmenaARP:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 789456
+22/12/2022 12:02:48:065  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+22/12/2022 12:02:48:903 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>789456</ns1:documento><ns1:idprestador>123789</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+22/12/2022 12:03:02:451  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Using SCESession D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP servlet : AvayaDefaultExitHandler
+22/12/2022 12:03:02:546  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Removing session from AvayaSessionTermination Servlet
+22/12/2022 12:03:02:547  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+22/12/2022 12:03:02:550  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : HTTP Session lost removing SCESession D7DB13D9F6756CB695651077FA146F21
+22/12/2022 12:03:02:550  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : SCESession Removed
+22/12/2022 12:03:02:551 DEBUG - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : Removing 1 session stack frames.
+22/12/2022 12:03:02:551  INFO - D7DB13D9F6756CB695651077FA146F21:/IVRColmenaARP : ** Popped Stack Frame [/IVRColmenaARP]
+22/12/2022 12:03:49:250  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : SCESession bound to HttpSession BF961538466E74E31D9F08352A60119D
+22/12/2022 12:03:49:250  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Browser Version 2.1.4, terminationURL enabled : true
+22/12/2022 12:03:49:253  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : Start
+22/12/2022 12:03:49:259  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : ** Pushed Stack Frame [/IVRColmenaARP]
+22/12/2022 12:03:49:260 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+22/12/2022 12:03:49:260 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+22/12/2022 12:03:49:260 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+22/12/2022 12:03:49:260 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:49:261 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Not able to save posted variable information [call_classification]
+22/12/2022 12:03:49:261  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___sessionid to complex: session:sessionid  as [sess9223136]
+22/12/2022 12:03:49:261  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+22/12/2022 12:03:49:882  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : runtime_platform : Desktop
+22/12/2022 12:03:49:882  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : runtime_asr : Desktop Microsoft Speech SAPI
+22/12/2022 12:03:49:889  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : MessageType is speech
+22/12/2022 12:03:49:889 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Initializer:applicationStarted:Initializing admin variables...
+22/12/2022 12:03:49:890 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Initializer:applicationStarted:__VPVarAppDate is 1671728629890
+22/12/2022 12:03:49:890 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Initializer:applicationStarted:Timestamp is 12/22/22 12:03:49
+22/12/2022 12:03:49:890 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Initializer:applicationStarted:Appname is IVRColmenaARP
+22/12/2022 12:03:49:890 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : AdminVarCache:init: Timestamp is different; Load parameters....
+22/12/2022 12:03:49:890 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : AdminVarCache:init: Module? false
+22/12/2022 12:03:49:892 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : AdminVarCache:init: loading simulation data...
+22/12/2022 12:03:49:894 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : VDN=>57817
+22/12/2022 12:03:49:894 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : intentos=>2
+22/12/2022 12:03:49:894 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : app params: {VDN=57817, intentos=2}
+22/12/2022 12:03:49:895 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : load param: VDN
+22/12/2022 12:03:49:895 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : load param: intentos
+22/12/2022 12:03:49:895 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : AdminVarCache:init: Finish loading.
+22/12/2022 12:03:49:908  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : anuBienvenida
+22/12/2022 12:03:49:909  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___ani to complex: session:ani  as [3025841312]
+22/12/2022 12:03:49:910  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___calltag to complex: session:calltag  as [unknown]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___channel to complex: session:channel  as [0]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___dnis to complex: session:dnis  as [569898]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___protocolname to complex: session:protocolname  as [pots]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+22/12/2022 12:03:49:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___uui to complex: session:uui  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videofps to complex: session:videofps  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+22/12/2022 12:03:49:913  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+22/12/2022 12:03:49:914 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Collection Mismatch, going bigger, New size is:7
+22/12/2022 12:03:49:914  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[1]  as [PD]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[2]  as [C8]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[3]  as [F7]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[4]  as [F8]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[5]  as [F5]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[6]  as [F4]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:id[7]  as [FA]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[1]  as [04]
+22/12/2022 12:03:49:915  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[2]  as [31323534303635]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[3]  as [0000]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[4]  as [0102]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[6]  as [8288AEAE]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Setting session:sessionlabel to ucid->00001018341670247984
+22/12/2022 12:03:49:916  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Setting session:ucid to ucid->00001018341670247984
+22/12/2022 12:03:49:991  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : pacDigitaNIT
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:052 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:50:053 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:595  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : menConfirmaNIT
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [369852]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [369852]
+22/12/2022 12:03:54:596  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [369852]
+22/12/2022 12:03:54:652 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:652 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:652 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:653 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:54:655 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:56:997  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : pacDigitaIdentificacion
+22/12/2022 12:03:56:997  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+22/12/2022 12:03:56:998  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+22/12/2022 12:03:57:054 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:03:57:055 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:152  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : menConfirmaIdent
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [74128]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [74128#]
+22/12/2022 12:04:02:153  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [74128]
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for intentos
+22/12/2022 12:04:02:210 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : insertaDatos
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+22/12/2022 12:04:04:834  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+22/12/2022 12:04:04:893  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+22/12/2022 12:04:04:893  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+22/12/2022 12:04:04:893  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+22/12/2022 12:04:04:893  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+22/12/2022 12:04:04:893 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+22/12/2022 12:04:04:919 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Rows affected : [1]
+22/12/2022 12:04:04:921  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : datObtenerAiuIVRWS
+22/12/2022 12:04:04:972  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+22/12/2022 12:04:04:973  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+22/12/2022 12:04:04:973 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : session id:sess9223136 | IVRColmenaARP:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 369852
+22/12/2022 12:04:04:973 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : session id:sess9223136 | IVRColmenaARP:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 74128
+22/12/2022 12:04:04:974  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+22/12/2022 12:04:05:027 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>74128</ns1:documento><ns1:idprestador>369852</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+22/12/2022 12:04:06:290 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Web Service Reply <- <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><ObtenerAiuIvrResponse xmlns="http://www.colmena.arp.com.co/"><ObtenerAiuIvrResult>0</ObtenerAiuIvrResult></ObtenerAiuIvrResponse></soap:Body></soap:Envelope>
+22/12/2022 12:04:06:291 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Storing [0] to: ConsultaObtenerAiuIvr:result
+22/12/2022 12:04:06:294 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : session id:sess9223136 | IVRColmenaARP:datObtenerAiuIVRWS | RESPUESTA -> | ConsultaObtenerAiuIvr:result : 0
+22/12/2022 12:04:06:297  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : [condition1] Expression [ConsultaObtenerAiuIvr:result] Numeric Equal [0]
+22/12/2022 12:04:06:298  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : datTransfer
+22/12/2022 12:04:06:359  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Assigning [insertaDatosBD:llave] to [UUIData]
+22/12/2022 12:04:06:361  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : bliTransfer
+22/12/2022 12:04:06:432 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+22/12/2022 12:04:06:432 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Admin VariableField:getStringValue(): return string value for VDN
+22/12/2022 12:04:06:433 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : get param for app: IVRColmenaARP
+22/12/2022 12:04:11:845  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Using SCESession BF961538466E74E31D9F08352A60119D:/IVRColmenaARP servlet : retFin
+22/12/2022 12:04:11:909  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Removing session from AvayaSessionTermination Servlet
+22/12/2022 12:04:11:911  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+22/12/2022 12:04:11:912  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : HTTP Session lost removing SCESession BF961538466E74E31D9F08352A60119D
+22/12/2022 12:04:11:912  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : SCESession Removed
+22/12/2022 12:04:11:912 DEBUG - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : Removing 1 session stack frames.
+22/12/2022 12:04:11:912  INFO - BF961538466E74E31D9F08352A60119D:/IVRColmenaARP : ** Popped Stack Frame [/IVRColmenaARP]

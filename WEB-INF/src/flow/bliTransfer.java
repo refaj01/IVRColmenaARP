@@ -113,7 +113,7 @@ public class bliTransfer extends com.avaya.sce.runtime.Form {
 		// build the list of prompt names
 		list = new java.util.ArrayList(1);
 		
-		list.add(new com.avaya.sce.runtime.PromptRefInfo("prmDespedida", ""));
+		list.add(new com.avaya.sce.runtime.PromptRefInfo("prmTransfer", ""));
 
 		return(list);
 	}

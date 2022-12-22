@@ -25,7 +25,7 @@
         <basetext/>
         <searchkeywords/>
         <comments/>
-        <audiofile>TXT14.wav</audiofile>
+        <audiofile>DESPEDIDA.wav</audiofile>
     </phrase>
     <phrase version="1.0">
         <displayname>ConfirmacionA</displayname>
@@ -71,5 +71,14 @@
         <searchkeywords/>
         <comments/>
         <audiofile>ParaRepetirMarque1.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Trasnferencia</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>OPCION2.wav</audiofile>
     </phrase>
 </phraseset>

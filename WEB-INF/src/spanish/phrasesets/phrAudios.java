@@ -20,7 +20,7 @@ public class phrAudios extends com.avaya.sce.runtime.Phraseset {
 		//{{START:PHRASESET:STATIC
 
 		// Create the phrase map, then populate with phrases
-		PHRASE_MAP = new com.avaya.sce.runtime.Phraseset.PhraseMap(16);
+		PHRASE_MAP = new com.avaya.sce.runtime.Phraseset.PhraseMap(18);
 		com.avaya.sce.runtime.Phrase phrase;
 
 		// phrase: Bienvenida
@@ -30,7 +30,7 @@ public class phrAudios extends com.avaya.sce.runtime.Phraseset {
 		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "DigitaNIT", "NIT.wav", ""); 
 
 		// phrase: Despedida
-		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "Despedida", "TXT14.wav", ""); 
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "Despedida", "DESPEDIDA.wav", ""); 
 
 		// phrase: ConfirmacionA
 		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "ConfirmacionA", "NumeroDigitadoEs.wav", ""); 
@@ -46,6 +46,9 @@ public class phrAudios extends com.avaya.sce.runtime.Phraseset {
 
 		// phrase: Repetir
 		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "Repetir", "ParaRepetirMarque1.wav", ""); 
+
+		// phrase: Trasnferencia
+		com.avaya.sce.runtime.Phraseset.addLocalPhrase(PHRASE_MAP, "Trasnferencia", "OPCION2.wav", ""); 
 
 		//}}END:PHRASESET:STATIC
 	}

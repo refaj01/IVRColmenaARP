@@ -1,1 +1,143 @@
-22/12/2022 12:03:02:521  INFO - In Progress | session id:sess1069791 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 11:32:30:901  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 11:32:31:121  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 11:32:31:521  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 11:32:36:914  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 147852^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:32:38:994  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:32:44:173  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 0852369#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:32:46:206  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:32:46:670  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:datObtenerAiuIVRWS | Framework | datObtenerAiuIVRWS |  |  | 00001018341670247984
+23/12/2022 11:33:01:249  INFO - Node Entry | session id:sess396452 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 11:33:01:259  INFO - In Progress | session id:sess396452 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 11:33:01:259  INFO - Application Exit | session id:sess396452 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 11:42:04:190  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 11:42:04:304  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 11:42:04:396  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 11:42:09:032  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 2580^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:42:10:735  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:42:14:469  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 7412#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:42:16:856  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:42:16:965  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:datObtenerAiuIVRWS | Framework | datObtenerAiuIVRWS |  |  | 00001018341670247984
+23/12/2022 11:42:31:866  INFO - Node Entry | session id:sess8643947 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 11:42:31:876  INFO - In Progress | session id:sess8643947 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 11:42:31:876  INFO - Application Exit | session id:sess8643947 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 11:43:24:373  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 11:43:24:487  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 11:43:24:579  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 11:43:29:219  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 1478^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:43:30:836  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:43:34:536  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 0856#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:43:36:808  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:43:36:915  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:datObtenerAiuIVRWS | Framework | datObtenerAiuIVRWS |  |  | 00001018341670247984
+23/12/2022 11:43:51:814  INFO - Node Entry | session id:sess8514243 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 11:43:51:816  INFO - In Progress | session id:sess8514243 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 11:43:51:817  INFO - Application Exit | session id:sess8514243 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 11:58:37:848  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 11:58:37:947  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 11:58:38:039  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 11:58:42:647  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 1477^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:58:45:301  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:58:49:023  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 11111#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:58:51:285  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 11:58:51:364  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:pruebaWS | Framework | pruebaWS |  |  | 00001018341670247984
+23/12/2022 11:59:06:312  INFO - Node Entry | session id:sess4527442 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 11:59:06:316  INFO - In Progress | session id:sess4527442 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 11:59:06:316  INFO - Application Exit | session id:sess4527442 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 12:12:14:509  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 12:12:14:622  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 12:12:14:898  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 12:12:19:495  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 1470^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:12:22:095  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:12:25:816  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 22222#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:12:27:405  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:12:27:482  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:pruebaWS | Framework | pruebaWS |  |  | 00001018341670247984
+23/12/2022 12:12:42:438  INFO - Node Entry | session id:sess7743794 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 12:12:42:443  INFO - In Progress | session id:sess7743794 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 12:12:42:443  INFO - Application Exit | session id:sess7743794 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 12:15:25:830  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 12:15:25:924  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 12:15:26:001  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 12:15:30:876  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 1111^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:15:32:586  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:15:36:318  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 22222#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:15:38:321  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:15:38:414  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:pruebaWS | Framework | pruebaWS |  |  | 00001018341670247984
+23/12/2022 12:15:53:342  INFO - Node Entry | session id:sess1294398 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 12:15:53:347  INFO - In Progress | session id:sess1294398 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 12:15:53:347  INFO - Application Exit | session id:sess1294398 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 12:48:38:296  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 12:48:38:482  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 12:48:38:573  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 12:48:43:184  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 1111^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:48:44:873  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:48:48:609  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 222#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:48:51:386  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 12:48:51:821  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 12:49:06:426  INFO - Node Entry | session id:sess269749 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 12:49:06:436  INFO - In Progress | session id:sess269749 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 12:49:06:436  INFO - Application Exit | session id:sess269749 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:02:41:915  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:02:42:021  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:02:42:114  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:02:46:720  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 333^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:02:49:188  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:02:52:901  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 0000#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:02:55:844  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:02:55:953  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:03:10:861  INFO - Node Entry | session id:sess5199827 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:03:10:865  INFO - In Progress | session id:sess5199827 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:03:10:866  INFO - Application Exit | session id:sess5199827 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:10:57:155  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:10:57:270  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:10:57:361  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:10:59:921  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 0000^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:11:01:634  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:11:05:356  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 0000#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:11:06:928  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:11:07:021  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:11:21:974  INFO - Node Entry | session id:sess2509830 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:11:21:981  INFO - In Progress | session id:sess2509830 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:11:21:981  INFO - Application Exit | session id:sess2509830 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:14:01:709  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:14:01:810  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:14:01:898  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:14:04:470  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 000^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:14:06:067  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:14:09:777  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 000#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:14:11:650  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:14:11:742  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:14:26:679  INFO - Node Entry | session id:sess9798534 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:14:26:684  INFO - In Progress | session id:sess9798534 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:14:26:684  INFO - Application Exit | session id:sess9798534 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:39:24:332  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:39:24:443  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:39:24:530  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:39:27:119  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 111^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:39:28:764  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:39:32:497  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 111#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:39:34:208  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:39:34:299  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:39:49:248  INFO - Node Entry | session id:sess8561652 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:39:49:258  INFO - In Progress | session id:sess8561652 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:39:49:259  INFO - Application Exit | session id:sess8561652 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:42:59:627  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:42:59:817  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:42:59:922  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:43:04:556  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 111^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:43:06:182  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:43:09:897  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 111#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:43:11:488  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:43:11:953  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:43:26:499  INFO - Node Entry | session id:sess2070462 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:43:26:510  INFO - In Progress | session id:sess2070462 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:43:26:510  INFO - Application Exit | session id:sess2070462 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984
+23/12/2022 13:45:04:990  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:Start | Framework | Start |  |  | 
+23/12/2022 13:45:05:095  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:anuBienvenida | Framework | anuBienvenida |  |  | 00001018341670247984
+23/12/2022 13:45:05:185  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:pacDigitaNIT | Framework | pacDigitaNIT |  |  | 00001018341670247984
+23/12/2022 13:45:07:821  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:menConfirmaNIT | Framework | menConfirmaNIT | pacDigitaNIT___utterance | 222^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:45:09:415  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:pacDigitaIdentificacion | Framework | pacDigitaIdentificacion | menConfirmaNIT___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:45:13:145  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:menConfirmaIdent | Framework | menConfirmaIdent | pacDigitaIdentificacion___utterance | 222#^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:45:14:720  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:insertaDatos | Framework | insertaDatos | menConfirmaIdent___utterance | 1^0.949999988079071^0^0 | 00001018341670247984
+23/12/2022 13:45:14:829  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:serPruebaWS | Framework | serPruebaWS |  |  | 00001018341670247984
+23/12/2022 13:45:29:752  INFO - Node Entry | session id:sess1516361 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | AvayaDefaultExitHandler |  |  | 00001018341670247984
+23/12/2022 13:45:29:759  INFO - In Progress | session id:sess1516361 | IVRColmenaARP:AvayaDefaultExitHandler | Default Disconnect Handler | Default Exit executed, application exiting |  |  | 00001018341670247984
+23/12/2022 13:45:29:759  INFO - Application Exit | session id:sess1516361 | IVRColmenaARP:AvayaDefaultExitHandler | Framework | Application Exiting |  |  | 00001018341670247984

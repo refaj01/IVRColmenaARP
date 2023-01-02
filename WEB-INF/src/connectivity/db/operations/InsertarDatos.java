@@ -19,7 +19,7 @@ public class InsertarDatos extends com.avaya.sce.runtime.connectivity.db.DbQuery
 		//{{START:CLASS:CONSTRUCTOR
 		super(mySession);
 
-		setDataSourceName("jdbc/Produccion");
+		setDataSourceName("jdbc/UATColmena");
 		setDbObjectName("dbo.ARP_Datos_Ivr_SP;1");
 		setOperation(4);
 		setReturnType(2);

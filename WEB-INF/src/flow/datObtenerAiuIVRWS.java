@@ -109,7 +109,7 @@ public class datObtenerAiuIVRWS extends com.avaya.sce.runtime.Data {
 			}
 
 
-		} catch (Exception e1) {
+		} catch (java.io.IOException e1) {
 			actions = new java.util.ArrayList(2);
 			actions.add(new com.avaya.sce.runtime.varoperations.CaptureException(e1).setDebugId(-1));
 			actions.add(new com.avaya.sce.runtime.Next("datTransfer", "ErrorWS").setDebugId(210));

@@ -70,8 +70,11 @@ public class datTransfer extends com.avaya.sce.runtime.Data {
 	public boolean executeDataActions(com.avaya.sce.runtimecommon.SCESession mySession) throws Exception {
 		java.util.Collection actions = null;
 
-		actions = new java.util.ArrayList(2);
+		actions = new java.util.ArrayList(5);
 		actions.add(new com.avaya.sce.runtime.varoperations.Assign("UUIData", "insertaDatosBD:llave", false).setDebugId(315));
+		actions.add(new com.avaya.sce.runtime.varoperations.StringToHexCharCodes("EncodedUUI", "UUIData").setDebugId(382));
+		actions.add(new com.avaya.sce.runtime.varoperations.InsertString("EncodedUUI", "prefix", false, "0", true).setDebugId(383));
+		actions.add(new com.avaya.sce.runtime.tracking.ReportInfo(com.avaya.sce.runtimecommon.IReportInfo.REPORT_TYPE_PROGRESS, com.avaya.sce.runtimecommon.IReportInfo.ALARM_LEVEL_INFO, "u2uxfer", "Encoded UUI data with prefix is: ", "EncodedUUI").setDebugId(380));
 		if(evaluateActions(actions, mySession)) {
 			return true;
 		}

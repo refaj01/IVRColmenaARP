@@ -2,8 +2,8 @@
 <Pagelet>
     <DataPagelet>
         <PageletHeader>
-            <PageletName>IVRColmenaARP</PageletName>
-            <PageletDescription>IVRColmenaARP</PageletDescription>
+            <PageletName>IVR_Colmena_Prestadores_V1.0</PageletName>
+            <PageletDescription>IVR_Colmena_Prestadores_V1.0</PageletDescription>
             <PageletVersion>1.0</PageletVersion>
         </PageletHeader>
         <PageletBody>
@@ -19,7 +19,7 @@
                             <MaxLength>2147483647</MaxLength>
                         </StringValidation>
                     </FieldValidation>
-                    <FieldDefaultValue>57817</FieldDefaultValue>
+                    <FieldDefaultValue>1120112</FieldDefaultValue>
                     <IsFieldTemplatable>true</IsFieldTemplatable>
                     <IsFieldMandatory>false</IsFieldMandatory>
                     <FieldDescription/>

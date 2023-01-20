@@ -176,9 +176,9 @@ public class anuBienvenida extends com.avaya.sce.runtime.Form {
 	 */
 	public java.util.Collection getTrackingActions(com.avaya.sce.runtimecommon.SCESession mySession) {
 		java.util.List list = null;
+		list = new java.util.ArrayList(1);
 
-		// Item has no tracking items.
-		list = new java.util.ArrayList();
+		list.add(new com.avaya.sce.runtime.tracking.ReportInfo(com.avaya.sce.runtimecommon.IReportInfo.REPORT_TYPE_PROGRESS, com.avaya.sce.runtimecommon.IReportInfo.ALARM_LEVEL_INFO, "TELEFONO", "TELEFONO", "session:ani"));
 		return(list);
 	}
 	/**

@@ -76,19 +76,19 @@ public class AppRoot extends com.avaya.sce.runtime.Root {
 		// Item has no prompts associated
 		eventPromptNames = new java.util.ArrayList();
 
-		event = new com.avaya.sce.runtime.Event("error.runtime", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("retFin", 0, true, ""));
+		event = new com.avaya.sce.runtime.Event("error.runtime", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("datError", 0, true, ""));
 		list.add(event);
 
 		// Item has no prompts associated
 		eventPromptNames = new java.util.ArrayList();
 
-		event = new com.avaya.sce.runtime.Event("error.semantic", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("retFin", 0, true, ""));
+		event = new com.avaya.sce.runtime.Event("error.semantic", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("datError", 0, true, ""));
 		list.add(event);
 
 		// Item has no prompts associated
 		eventPromptNames = new java.util.ArrayList();
 
-		event = new com.avaya.sce.runtime.Event("error", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("retFin", 0, true, ""));
+		event = new com.avaya.sce.runtime.Event("error", (com.avaya.sce.runtime.PromptRefInfo[])eventPromptNames.toArray(new com.avaya.sce.runtime.PromptRefInfo[0]), new com.avaya.sce.runtime.Goto("datError", 0, true, ""));
 		list.add(event);
 		event = new com.avaya.sce.runtime.OnDisconnect("retFin", false);
 		list.add(event);

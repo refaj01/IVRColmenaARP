@@ -18599,3 +18599,1002 @@ java.net.BindException: Cannot assign requested address: Datagram send failed
 23/12/2022 13:45:29:774  INFO - 793C6BB302C750F864EA2D165FF2E49D:/IVRColmenaARP : SCESession Removed
 23/12/2022 13:45:29:774 DEBUG - 793C6BB302C750F864EA2D165FF2E49D:/IVRColmenaARP : Removing 1 session stack frames.
 23/12/2022 13:45:29:774  INFO - 793C6BB302C750F864EA2D165FF2E49D:/IVRColmenaARP : ** Popped Stack Frame [/IVRColmenaARP]
+03/01/2023 18:40:16:952  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : SCESession bound to HttpSession 974C0BDBBD2CF550CA446BA97143EE84
+03/01/2023 18:40:16:973  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Browser Version 2.1.4, terminationURL enabled : true
+03/01/2023 18:40:16:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : Start
+03/01/2023 18:40:17:059  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : ** Pushed Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+03/01/2023 18:40:17:083 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+03/01/2023 18:40:17:103 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+03/01/2023 18:40:17:103 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+03/01/2023 18:40:17:104 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:17:106 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Not able to save posted variable information [call_classification]
+03/01/2023 18:40:17:107  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionid to complex: session:sessionid  as [sess2178488]
+03/01/2023 18:40:17:108  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+03/01/2023 18:40:17:782  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : runtime_platform : Desktop
+03/01/2023 18:40:17:783  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : runtime_asr : Desktop Microsoft Speech SAPI
+03/01/2023 18:40:17:797 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Acquiring initial License
+03/01/2023 18:40:17:799  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Acquiring Desktop runtime license
+03/01/2023 18:40:17:799  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Runtime :true
+03/01/2023 18:40:17:799  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : IC :true
+03/01/2023 18:40:17:800  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : CTI :true
+03/01/2023 18:40:17:920 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Grace Period timer cleared
+03/01/2023 18:40:17:922 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : License refresh timer started
+03/01/2023 18:40:17:926  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : MessageType is speech
+03/01/2023 18:40:17:930 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Initializing admin variables...
+03/01/2023 18:40:17:931 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:__VPVarAppDate is 1672789217931
+03/01/2023 18:40:17:932 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Timestamp is 01/03/23 18:40:17
+03/01/2023 18:40:17:932 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Appname is IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:17:934 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Timestamp is different; Load parameters....
+03/01/2023 18:40:17:934 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Module? false
+03/01/2023 18:40:17:934 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: loading simulation data...
+03/01/2023 18:40:17:940 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : VDN=>57817
+03/01/2023 18:40:17:940 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : intentos=>2
+03/01/2023 18:40:17:941 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : app params: {VDN=57817, intentos=2}
+03/01/2023 18:40:17:942 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : load param: VDN
+03/01/2023 18:40:17:944 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : load param: intentos
+03/01/2023 18:40:17:944 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Finish loading.
+03/01/2023 18:40:17:979  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : anuBienvenida
+03/01/2023 18:40:17:980  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+03/01/2023 18:40:17:981  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+03/01/2023 18:40:17:981  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ani to complex: session:ani  as [3025841312]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___calltag to complex: session:calltag  as [unknown]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___channel to complex: session:channel  as [0]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+03/01/2023 18:40:17:982  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___dnis to complex: session:dnis  as [569898]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolname to complex: session:protocolname  as [pots]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+03/01/2023 18:40:17:983  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+03/01/2023 18:40:17:984  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___uui to complex: session:uui  as [unknown]
+03/01/2023 18:40:17:984  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+03/01/2023 18:40:17:984  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+03/01/2023 18:40:17:984  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+03/01/2023 18:40:17:984  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofps to complex: session:videofps  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+03/01/2023 18:40:17:985  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+03/01/2023 18:40:17:986  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+03/01/2023 18:40:17:986  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+03/01/2023 18:40:17:986  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+03/01/2023 18:40:17:989 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Collection Mismatch, going bigger, New size is:7
+03/01/2023 18:40:17:989  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[1]  as [PD]
+03/01/2023 18:40:17:989  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[2]  as [C8]
+03/01/2023 18:40:17:989  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[3]  as [F7]
+03/01/2023 18:40:17:989  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[4]  as [F8]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[5]  as [F5]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[6]  as [F4]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[7]  as [FA]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[1]  as [04]
+03/01/2023 18:40:17:990  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[2]  as [31323534303635]
+03/01/2023 18:40:17:991  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[3]  as [0000]
+03/01/2023 18:40:17:991  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[4]  as [0102]
+03/01/2023 18:40:17:991  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+03/01/2023 18:40:17:991  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[6]  as [8288AEAE]
+03/01/2023 18:40:17:991  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+03/01/2023 18:40:17:992  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Setting session:sessionlabel to ucid->00001018341670247984
+03/01/2023 18:40:17:992  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Setting session:ucid to ucid->00001018341670247984
+03/01/2023 18:40:18:123  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaNIT
+03/01/2023 18:40:18:198 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:199 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:199 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:200 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:201 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:201 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:201 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:202 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:18:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:18:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:18:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:776  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaNIT
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [123698]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [123698]
+03/01/2023 18:40:22:777  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [123698]
+03/01/2023 18:40:22:857 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:857 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:857 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:857 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:857 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:859 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:22:860 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaIdentificacion
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+03/01/2023 18:40:24:412  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:474 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:24:475 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:143  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaIdent
+03/01/2023 18:40:28:143  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+03/01/2023 18:40:28:143  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+03/01/2023 18:40:28:144  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [08569]
+03/01/2023 18:40:28:144  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+03/01/2023 18:40:28:144  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+03/01/2023 18:40:28:144  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [08569#]
+03/01/2023 18:40:28:144  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [08569]
+03/01/2023 18:40:28:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:203 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:204 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:205 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:28:206 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:40:28:206 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:40:28:206 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:40:30:269  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : insertaDatos
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+03/01/2023 18:40:30:270  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+03/01/2023 18:40:30:333  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+03/01/2023 18:40:30:334  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+03/01/2023 18:40:30:334  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+03/01/2023 18:40:30:334  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+03/01/2023 18:40:30:344 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+03/01/2023 18:40:30:812 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Rows affected : [1]
+03/01/2023 18:40:30:848  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : datObtenerAiuIVRWS
+03/01/2023 18:40:30:929  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+03/01/2023 18:40:30:929  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+03/01/2023 18:40:30:930 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : session id:sess2178488 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 123698
+03/01/2023 18:40:30:930 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : session id:sess2178488 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 08569
+03/01/2023 18:40:30:930  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+03/01/2023 18:40:31:781 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>08569</ns1:documento><ns1:idprestador>123698</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+03/01/2023 18:40:45:311  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 servlet : AvayaDefaultExitHandler
+03/01/2023 18:40:45:380  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Removing session from AvayaSessionTermination Servlet
+03/01/2023 18:40:45:381  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+03/01/2023 18:40:45:383  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : HTTP Session lost removing SCESession 974C0BDBBD2CF550CA446BA97143EE84
+03/01/2023 18:40:45:384  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : SCESession Removed
+03/01/2023 18:40:45:384 DEBUG - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : Removing 1 session stack frames.
+03/01/2023 18:40:45:384  INFO - 974C0BDBBD2CF550CA446BA97143EE84:/IVR_Colmena_Prestadores_V1.0 : ** Popped Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+03/01/2023 18:41:48:902  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : SCESession bound to HttpSession ACBDA40FB4CFBC254E486E71E0F9F784
+03/01/2023 18:41:48:903  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Browser Version 2.1.4, terminationURL enabled : true
+03/01/2023 18:41:48:907  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : Start
+03/01/2023 18:41:48:914  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : ** Pushed Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+03/01/2023 18:41:48:916 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+03/01/2023 18:41:48:917 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+03/01/2023 18:41:48:917 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+03/01/2023 18:41:48:917 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:48:917 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Not able to save posted variable information [call_classification]
+03/01/2023 18:41:48:918  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionid to complex: session:sessionid  as [sess8442619]
+03/01/2023 18:41:48:918  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+03/01/2023 18:41:49:539  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : runtime_platform : Desktop
+03/01/2023 18:41:49:541  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : runtime_asr : Desktop Microsoft Speech SAPI
+03/01/2023 18:41:49:546  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : MessageType is speech
+03/01/2023 18:41:49:546 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Initializing admin variables...
+03/01/2023 18:41:49:547 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:__VPVarAppDate is 1672789309547
+03/01/2023 18:41:49:547 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Timestamp is 01/03/23 18:41:49
+03/01/2023 18:41:49:547 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Appname is IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:548 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Timestamp is different; Load parameters....
+03/01/2023 18:41:49:548 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Module? false
+03/01/2023 18:41:49:548 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: loading simulation data...
+03/01/2023 18:41:49:550 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : VDN=>57817
+03/01/2023 18:41:49:550 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : intentos=>2
+03/01/2023 18:41:49:551 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : app params: {VDN=57817, intentos=2}
+03/01/2023 18:41:49:551 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : load param: VDN
+03/01/2023 18:41:49:551 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : load param: intentos
+03/01/2023 18:41:49:551 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Finish loading.
+03/01/2023 18:41:49:568  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : anuBienvenida
+03/01/2023 18:41:49:569  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+03/01/2023 18:41:49:569  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ani to complex: session:ani  as [3025841312]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___calltag to complex: session:calltag  as [unknown]
+03/01/2023 18:41:49:570  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___channel to complex: session:channel  as [0]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___dnis to complex: session:dnis  as [569898]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolname to complex: session:protocolname  as [pots]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+03/01/2023 18:41:49:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___uui to complex: session:uui  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofps to complex: session:videofps  as [unknown]
+03/01/2023 18:41:49:572  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+03/01/2023 18:41:49:573  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+03/01/2023 18:41:49:574 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Collection Mismatch, going bigger, New size is:7
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[1]  as [PD]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[2]  as [C8]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[3]  as [F7]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[4]  as [F8]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[5]  as [F5]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[6]  as [F4]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[7]  as [FA]
+03/01/2023 18:41:49:574  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[1]  as [04]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[2]  as [31323534303635]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[3]  as [0000]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[4]  as [0102]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[6]  as [8288AEAE]
+03/01/2023 18:41:49:575  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+03/01/2023 18:41:49:576  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Setting session:sessionlabel to ucid->00001018341670247984
+03/01/2023 18:41:49:576  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Setting session:ucid to ucid->00001018341670247984
+03/01/2023 18:41:49:648  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaNIT
+03/01/2023 18:41:49:707 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:708 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:49:709 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:49:709 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:49:709 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:269  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaNIT
+03/01/2023 18:41:54:270  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+03/01/2023 18:41:54:270  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+03/01/2023 18:41:54:270  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [14780]
+03/01/2023 18:41:54:271  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+03/01/2023 18:41:54:271  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+03/01/2023 18:41:54:271  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [14780]
+03/01/2023 18:41:54:271  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [14780]
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:328 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:54:329 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:215  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaIdentificacion
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+03/01/2023 18:41:56:216  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:274 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:41:56:275 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaIdent
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [15980]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [15980#]
+03/01/2023 18:42:01:384  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [15980]
+03/01/2023 18:42:01:442 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:443 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:444 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:445 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:446 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:447 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:01:447 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+03/01/2023 18:42:01:447 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+03/01/2023 18:42:01:447 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : insertaDatos
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+03/01/2023 18:42:03:514  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+03/01/2023 18:42:03:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+03/01/2023 18:42:03:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+03/01/2023 18:42:03:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+03/01/2023 18:42:03:571  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+03/01/2023 18:42:03:571 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+03/01/2023 18:42:03:590 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Rows affected : [1]
+03/01/2023 18:42:03:591  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : datObtenerAiuIVRWS
+03/01/2023 18:42:03:650  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+03/01/2023 18:42:03:650  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+03/01/2023 18:42:03:650 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : session id:sess8442619 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 14780
+03/01/2023 18:42:03:650 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : session id:sess8442619 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 15980
+03/01/2023 18:42:03:650  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+03/01/2023 18:42:03:690 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>15980</ns1:documento><ns1:idprestador>14780</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+03/01/2023 18:42:03:863 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Web Service Reply <- <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><ObtenerAiuIvrResponse xmlns="http://www.colmena.arp.com.co/"><ObtenerAiuIvrResult>0</ObtenerAiuIvrResult></ObtenerAiuIvrResponse></soap:Body></soap:Envelope>
+03/01/2023 18:42:03:863 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Storing [0] to: ConsultaObtenerAiuIvr:result
+03/01/2023 18:42:03:865 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : session id:sess8442619 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | RESPUESTA -> | ConsultaObtenerAiuIvr:result : 0
+03/01/2023 18:42:03:867  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : [condition1] Expression [ConsultaObtenerAiuIvr:result] Numeric Equal [0]
+03/01/2023 18:42:03:868  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : datTransfer
+03/01/2023 18:42:03:932  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Assigning [insertaDatosBD:llave] to [UUIData]
+03/01/2023 18:42:03:932  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : StringToHexCharCodes [UUIData] to [EncodedUUI] results in [3335]
+03/01/2023 18:42:03:932  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Insert [PD,00;C8,] in [EncodedUUI] at offset [0]
+03/01/2023 18:42:03:932 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : session id:sess8442619 | IVR_Colmena_Prestadores_V1.0:datTransfer | UUI | EncodedUUI : PD,00;C8,3335
+03/01/2023 18:42:03:933  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : bliTransfer
+03/01/2023 18:42:04:000 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+03/01/2023 18:42:04:000 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for VDN
+03/01/2023 18:42:04:000 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+03/01/2023 18:42:09:407  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Using SCESession ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 servlet : retFin
+03/01/2023 18:42:09:474  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Removing session from AvayaSessionTermination Servlet
+03/01/2023 18:42:09:475  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+03/01/2023 18:42:09:476  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : HTTP Session lost removing SCESession ACBDA40FB4CFBC254E486E71E0F9F784
+03/01/2023 18:42:09:476  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : SCESession Removed
+03/01/2023 18:42:09:476 DEBUG - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : Removing 1 session stack frames.
+03/01/2023 18:42:09:476  INFO - ACBDA40FB4CFBC254E486E71E0F9F784:/IVR_Colmena_Prestadores_V1.0 : ** Popped Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+04/01/2023 17:36:37:866  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : SCESession bound to HttpSession 7E1DC8BBEBDEA32B580BBBE44CE2C69D
+04/01/2023 17:36:37:881  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Browser Version 2.1.4, terminationURL enabled : true
+04/01/2023 17:36:37:888  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : Start
+04/01/2023 17:36:37:964  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : ** Pushed Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+04/01/2023 17:36:37:983 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+04/01/2023 17:36:37:993 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+04/01/2023 17:36:37:993 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+04/01/2023 17:36:37:993 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:37:996 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Not able to save posted variable information [call_classification]
+04/01/2023 17:36:37:996  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionid to complex: session:sessionid  as [sess3268589]
+04/01/2023 17:36:37:996  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+04/01/2023 17:36:38:653  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : runtime_platform : Desktop
+04/01/2023 17:36:38:654  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : runtime_asr : Desktop Microsoft Speech SAPI
+04/01/2023 17:36:38:665 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Acquiring initial License
+04/01/2023 17:36:38:666  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Acquiring Desktop runtime license
+04/01/2023 17:36:38:666  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Runtime :true
+04/01/2023 17:36:38:666  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : IC :true
+04/01/2023 17:36:38:666  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : CTI :true
+04/01/2023 17:36:38:748 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Grace Period timer cleared
+04/01/2023 17:36:38:749 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : License refresh timer started
+04/01/2023 17:36:38:754  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : MessageType is speech
+04/01/2023 17:36:38:758 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Initializing admin variables...
+04/01/2023 17:36:38:759 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:__VPVarAppDate is 1672871798759
+04/01/2023 17:36:38:759 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Timestamp is 01/04/23 17:36:38
+04/01/2023 17:36:38:759 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Appname is IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:38:761 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Timestamp is different; Load parameters....
+04/01/2023 17:36:38:761 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Module? false
+04/01/2023 17:36:38:761 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: loading simulation data...
+04/01/2023 17:36:38:766 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : VDN=>57817
+04/01/2023 17:36:38:766 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : intentos=>2
+04/01/2023 17:36:38:767 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : app params: {VDN=57817, intentos=2}
+04/01/2023 17:36:38:767 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : load param: VDN
+04/01/2023 17:36:38:769 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : load param: intentos
+04/01/2023 17:36:38:769 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Finish loading.
+04/01/2023 17:36:38:804  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : anuBienvenida
+04/01/2023 17:36:38:808  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+04/01/2023 17:36:38:808  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+04/01/2023 17:36:38:808  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ani to complex: session:ani  as [3025841312]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___calltag to complex: session:calltag  as [unknown]
+04/01/2023 17:36:38:809  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___channel to complex: session:channel  as [0]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___dnis to complex: session:dnis  as [569898]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolname to complex: session:protocolname  as [pots]
+04/01/2023 17:36:38:810  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___uui to complex: session:uui  as [unknown]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+04/01/2023 17:36:38:811  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+04/01/2023 17:36:38:812  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+04/01/2023 17:36:38:812  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+04/01/2023 17:36:38:812  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+04/01/2023 17:36:38:813  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofps to complex: session:videofps  as [unknown]
+04/01/2023 17:36:38:813  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+04/01/2023 17:36:38:814  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+04/01/2023 17:36:38:814  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+04/01/2023 17:36:38:815  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+04/01/2023 17:36:38:816  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+04/01/2023 17:36:38:816  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+04/01/2023 17:36:38:817  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+04/01/2023 17:36:38:817  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+04/01/2023 17:36:38:821 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Collection Mismatch, going bigger, New size is:7
+04/01/2023 17:36:38:822  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[1]  as [PD]
+04/01/2023 17:36:38:822  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[2]  as [C8]
+04/01/2023 17:36:38:822  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[3]  as [F7]
+04/01/2023 17:36:38:823  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[4]  as [F8]
+04/01/2023 17:36:38:823  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[5]  as [F5]
+04/01/2023 17:36:38:823  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[6]  as [F4]
+04/01/2023 17:36:38:823  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[7]  as [FA]
+04/01/2023 17:36:38:823  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[1]  as [04]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[2]  as [31323534303635]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[3]  as [0000]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[4]  as [0102]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+04/01/2023 17:36:38:824  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[6]  as [8288AEAE]
+04/01/2023 17:36:38:825  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+04/01/2023 17:36:38:826  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Setting session:sessionlabel to ucid->00001018341670247984
+04/01/2023 17:36:38:826  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Setting session:ucid to ucid->00001018341670247984
+04/01/2023 17:36:39:002  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaNIT
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:073 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:39:074 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:39:075 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:698  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaNIT
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [1234]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [1234]
+04/01/2023 17:36:43:699  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [1234]
+04/01/2023 17:36:43:789 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:790 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:790 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:790 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:790 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:790 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:791 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:792 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:43:793 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:431  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaIdentificacion
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+04/01/2023 17:36:45:432  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:494 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:45:495 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:630  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaIdent
+04/01/2023 17:36:50:631  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+04/01/2023 17:36:50:631  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+04/01/2023 17:36:50:632  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [7895]
+04/01/2023 17:36:50:632  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+04/01/2023 17:36:50:632  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+04/01/2023 17:36:50:632  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [7895#]
+04/01/2023 17:36:50:632  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [7895]
+04/01/2023 17:36:50:703 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:703 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:703 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:704 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:704 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:704 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:704 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:705 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:706 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:707 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:50:708 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:36:50:708 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:36:50:708 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : insertaDatos
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+04/01/2023 17:36:52:801  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+04/01/2023 17:36:52:865  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+04/01/2023 17:36:52:865  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+04/01/2023 17:36:52:865  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+04/01/2023 17:36:52:865  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+04/01/2023 17:36:52:875 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+04/01/2023 17:36:53:316 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Rows affected : [1]
+04/01/2023 17:36:53:347  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : datObtenerAiuIVRWS
+04/01/2023 17:36:53:425  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+04/01/2023 17:36:53:425  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+04/01/2023 17:36:53:425 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : session id:sess3268589 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 1234
+04/01/2023 17:36:53:425 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : session id:sess3268589 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 7895
+04/01/2023 17:36:53:426  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+04/01/2023 17:36:54:242 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>7895</ns1:documento><ns1:idprestador>1234</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+04/01/2023 17:37:07:836  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 servlet : AvayaDefaultExitHandler
+04/01/2023 17:37:07:913  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Removing session from AvayaSessionTermination Servlet
+04/01/2023 17:37:07:915  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+04/01/2023 17:37:07:917  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : HTTP Session lost removing SCESession 7E1DC8BBEBDEA32B580BBBE44CE2C69D
+04/01/2023 17:37:07:918  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : SCESession Removed
+04/01/2023 17:37:07:918 DEBUG - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : Removing 1 session stack frames.
+04/01/2023 17:37:07:918  INFO - 7E1DC8BBEBDEA32B580BBBE44CE2C69D:/IVR_Colmena_Prestadores_V1.0 : ** Popped Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+04/01/2023 17:39:31:634  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : SCESession bound to HttpSession 1F3D93E9BAEC88859E96FE2CCA348BF2
+04/01/2023 17:39:31:637  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Browser Version 2.1.4, terminationURL enabled : true
+04/01/2023 17:39:31:642  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : Start
+04/01/2023 17:39:31:714  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : ** Pushed Stack Frame [/IVR_Colmena_Prestadores_V1.0]
+04/01/2023 17:39:31:736 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Creating variable [VDN] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+04/01/2023 17:39:31:755 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - VDN
+04/01/2023 17:39:31:756 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Creating variable [intentos] from factory [com.avaya.vp.admin.variables.runtime.AdminVariableFactory]
+04/01/2023 17:39:31:756 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:31:759 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Not able to save posted variable information [call_classification]
+04/01/2023 17:39:31:761  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionid to complex: session:sessionid  as [sess94511]
+04/01/2023 17:39:31:761  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+04/01/2023 17:39:32:427  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : runtime_platform : Desktop
+04/01/2023 17:39:32:427  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : runtime_asr : Desktop Microsoft Speech SAPI
+04/01/2023 17:39:32:433  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : MessageType is speech
+04/01/2023 17:39:32:439 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Initializing admin variables...
+04/01/2023 17:39:32:440 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:__VPVarAppDate is 1672871972440
+04/01/2023 17:39:32:441 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Timestamp is 01/04/23 17:39:32
+04/01/2023 17:39:32:441 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Initializer:applicationStarted:Appname is IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:442 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Timestamp is different; Load parameters....
+04/01/2023 17:39:32:443 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Module? false
+04/01/2023 17:39:32:443 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: loading simulation data...
+04/01/2023 17:39:32:445 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : VDN=>57817
+04/01/2023 17:39:32:446 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : intentos=>2
+04/01/2023 17:39:32:446 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : app params: {VDN=57817, intentos=2}
+04/01/2023 17:39:32:446 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : load param: VDN
+04/01/2023 17:39:32:447 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : load param: intentos
+04/01/2023 17:39:32:447 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : AdminVarCache:init: Finish loading.
+04/01/2023 17:39:32:474  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : anuBienvenida
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :redirectinfo___uri to complex: redirectinfo:uri  as [569898]
+04/01/2023 17:39:32:475  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___aai to complex: session:aai  as [PD,04;C8,31323534303635;F7,0000;F8,0102;F5,53616D73756E5F46697274735F3132;F4,8288AEAE;FA,0001072A638DF630]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ani to complex: session:ani  as [3025841312]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___calltag to complex: session:calltag  as [unknown]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___channel to complex: session:channel  as [0]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___dnis to complex: session:dnis  as [569898]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+04/01/2023 17:39:32:477  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolname to complex: session:protocolname  as [pots]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sessionlabel to complex: session:sessionlabel  as [00001018341670247984]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___ucid to complex: session:ucid  as [00001018341670247984]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___uui to complex: session:uui  as [unknown]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+04/01/2023 17:39:32:478  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videofps to complex: session:videofps  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+04/01/2023 17:39:32:479  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+04/01/2023 17:39:32:480  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+04/01/2023 17:39:32:480  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___id to complex: shareduui:id  as [PD |C8 |F7 |F8 |F5 |F4 |FA]
+04/01/2023 17:39:32:487 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Collection Mismatch, going bigger, New size is:7
+04/01/2023 17:39:32:489  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[1]  as [PD]
+04/01/2023 17:39:32:489  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[2]  as [C8]
+04/01/2023 17:39:32:489  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[3]  as [F7]
+04/01/2023 17:39:32:490  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[4]  as [F8]
+04/01/2023 17:39:32:491  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[5]  as [F5]
+04/01/2023 17:39:32:492  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[6]  as [F4]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:id[7]  as [FA]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :shareduui___value to complex: shareduui:value  as [04 |31323534303635 |0000 |0102 |53616D73756E5F46697274735F3132 |8288AEAE |0001072A638DF630]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[1]  as [04]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[2]  as [31323534303635]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[3]  as [0000]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[4]  as [0102]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[5]  as [53616D73756E5F46697274735F3132]
+04/01/2023 17:39:32:494  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[6]  as [8288AEAE]
+04/01/2023 17:39:32:495  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :complex: shareduui:value[7]  as [0001072A638DF630]
+04/01/2023 17:39:32:495  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Setting session:sessionlabel to ucid->00001018341670247984
+04/01/2023 17:39:32:495  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Setting session:ucid to ucid->00001018341670247984
+04/01/2023 17:39:32:599  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaNIT
+04/01/2023 17:39:32:671 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:671 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:672 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:32:673 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaNIT
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___confidence to complex: pacDigitaNIT:confidence  as [0.949999988079071]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___inputmode to complex: pacDigitaNIT:inputmode  as [dtmf]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___interpretation to complex: pacDigitaNIT:interpretation  as [2580]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___noinputcount to complex: pacDigitaNIT:noinputcount  as [0]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___nomatchcount to complex: pacDigitaNIT:nomatchcount  as [0]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___utterance to complex: pacDigitaNIT:utterance  as [2580]
+04/01/2023 17:39:37:260  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaNIT___value to complex: pacDigitaNIT:value  as [2580]
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:334 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:37:335 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:892  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : pacDigitaIdentificacion
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___confidence to complex: menConfirmaNIT:confidence  as [0.949999988079071]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___inputmode to complex: menConfirmaNIT:inputmode  as [dtmf]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___interpretation to complex: menConfirmaNIT:interpretation  as [1]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___noinputcount to complex: menConfirmaNIT:noinputcount  as [0]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___nomatchcount to complex: menConfirmaNIT:nomatchcount  as [0]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___utterance to complex: menConfirmaNIT:utterance  as [1]
+04/01/2023 17:39:38:893  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaNIT___value to complex: menConfirmaNIT:value  as [1]
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:955 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:38:956 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:38:956 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:38:956 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:614  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : menConfirmaIdent
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___confidence to complex: pacDigitaIdentificacion:confidence  as [0.949999988079071]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___inputmode to complex: pacDigitaIdentificacion:inputmode  as [dtmf]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___interpretation to complex: pacDigitaIdentificacion:interpretation  as [89650]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___noinputcount to complex: pacDigitaIdentificacion:noinputcount  as [0]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___nomatchcount to complex: pacDigitaIdentificacion:nomatchcount  as [0]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___utterance to complex: pacDigitaIdentificacion:utterance  as [89650#]
+04/01/2023 17:39:42:616  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :pacDigitaIdentificacion___value to complex: pacDigitaIdentificacion:value  as [89650]
+04/01/2023 17:39:42:676 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:676 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:676 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin SimpleVariable:getSimpleVariable(): return admin simple variable - intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Admin VariableField:getStringValue(): return string value for intentos
+04/01/2023 17:39:42:677 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : get param for app: IVR_Colmena_Prestadores_V1.0
+04/01/2023 17:39:44:239  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : insertaDatos
+04/01/2023 17:39:44:239  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___confidence to complex: menConfirmaIdent:confidence  as [0.949999988079071]
+04/01/2023 17:39:44:239  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___inputmode to complex: menConfirmaIdent:inputmode  as [dtmf]
+04/01/2023 17:39:44:239  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___interpretation to complex: menConfirmaIdent:interpretation  as [1]
+04/01/2023 17:39:44:240  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___noinputcount to complex: menConfirmaIdent:noinputcount  as [0]
+04/01/2023 17:39:44:240  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___nomatchcount to complex: menConfirmaIdent:nomatchcount  as [0]
+04/01/2023 17:39:44:240  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___utterance to complex: menConfirmaIdent:utterance  as [1]
+04/01/2023 17:39:44:240  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Storing :menConfirmaIdent___value to complex: menConfirmaIdent:value  as [1]
+04/01/2023 17:39:44:304  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Assigning [PRESTADOR = ] to [insertaDatosBD:datos]
+04/01/2023 17:39:44:304  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaNIT:value] to [insertaDatosBD:datos]
+04/01/2023 17:39:44:304  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Concatenating [ USUARIO = ] to [insertaDatosBD:datos]
+04/01/2023 17:39:44:304  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Concatenating [pacDigitaIdentificacion:value] to [insertaDatosBD:datos]
+04/01/2023 17:39:44:311 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Executing DB statement : [{ ? = call dbo.ARP_Datos_Ivr_SP;1 (  ?, ?) }]
+04/01/2023 17:39:44:337 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Rows affected : [1]
+04/01/2023 17:39:44:338  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : datObtenerAiuIVRWS
+04/01/2023 17:39:44:400  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaNIT:value] to [ConsultaObtenerAiuIvr:idPrestador]
+04/01/2023 17:39:44:401  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Assigning [pacDigitaIdentificacion:value] to [ConsultaObtenerAiuIvr:documento]
+04/01/2023 17:39:44:401 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : session id:sess94511 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | NIT -> | ConsultaObtenerAiuIvr:idPrestador : 2580
+04/01/2023 17:39:44:401 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : session id:sess94511 | IVR_Colmena_Prestadores_V1.0:datObtenerAiuIVRWS | DOCUMENTO -> | ConsultaObtenerAiuIvr:documento : 89650
+04/01/2023 17:39:44:401  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Calling method [{http://www.colmena.arp.com.co/}ObtenerAiuIvr] on web service [ConsultasIvr] at [http://172.28.66.231/SendaWeb/servicessenda/ConsultasIvr.asmx]
+04/01/2023 17:39:44:462 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Web Service Request -> <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Header /><soapenv:Body><ns1:ObtenerAiuIvr xmlns:ns1="http://www.colmena.arp.com.co/"><ns1:documento>89650</ns1:documento><ns1:idprestador>2580</ns1:idprestador></ns1:ObtenerAiuIvr></soapenv:Body></soapenv:Envelope>
+04/01/2023 17:39:59:256  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Using SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 servlet : AvayaDefaultExitHandler
+04/01/2023 17:39:59:322  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Removing session from AvayaSessionTermination Servlet
+04/01/2023 17:39:59:322  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+04/01/2023 17:39:59:325  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : HTTP Session lost removing SCESession 1F3D93E9BAEC88859E96FE2CCA348BF2
+04/01/2023 17:39:59:325  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : SCESession Removed
+04/01/2023 17:39:59:325 DEBUG - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : Removing 1 session stack frames.
+04/01/2023 17:39:59:325  INFO - 1F3D93E9BAEC88859E96FE2CCA348BF2:/IVR_Colmena_Prestadores_V1.0 : ** Popped Stack Frame [/IVR_Colmena_Prestadores_V1.0]

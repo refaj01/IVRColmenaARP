@@ -100,7 +100,8 @@ public class datObtenerAiuIVRWS extends com.avaya.sce.runtime.Data {
 				actions = null;
 
 			} else {
-				actions = new java.util.ArrayList(1);
+				actions = new java.util.ArrayList(2);
+				actions.add(new com.avaya.sce.runtime.tracking.ReportInfo(com.avaya.sce.runtimecommon.IReportInfo.REPORT_TYPE_PROGRESS, com.avaya.sce.runtimecommon.IReportInfo.ALARM_LEVEL_INFO, "CODIGO VALIDACION", "Codigo recibido en el WS:", "ConsultaObtenerAiuIvr:result").setDebugId(381));
 				actions.add(new com.avaya.sce.runtime.Next("menAudioValidacion", "ExisteNumValidacion").setDebugId(204));
 				if(evaluateActions(actions, mySession)) {
 					return true;
@@ -109,7 +110,7 @@ public class datObtenerAiuIVRWS extends com.avaya.sce.runtime.Data {
 			}
 
 
-		} catch (java.io.IOException e1) {
+		} catch (Exception e1) {
 			actions = new java.util.ArrayList(2);
 			actions.add(new com.avaya.sce.runtime.varoperations.CaptureException(e1).setDebugId(-1));
 			actions.add(new com.avaya.sce.runtime.Next("datTransfer", "ErrorWS").setDebugId(210));

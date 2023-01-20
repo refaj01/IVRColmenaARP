@@ -128,6 +128,7 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
+    <variable factoryID="" name="EncodedUUI" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="errorWS" owner="" type="" value="0" version="1.0"/>
     <variable factoryID="" name="insertaDatosBD:datos" owner="" type="" value="" version="1.0"/>
     <variable factoryID="" name="insertaDatosBD:llave" owner="" type="" value="0" version="1.0"/>
@@ -418,6 +419,7 @@
             <policy name="renameable" value="false"/>
         </editpolicies>
     </variable>
+    <variable factoryID="" name="prefix" owner="" type="" value="PD,00;C8," version="1.0"/>
     <variable factoryID="" name="redirectinfo:presentationinfo" owner="com.avaya.sce.core" type="com.avaya.sce.core.redirect" value="" version="1.0">
         <editpolicies>
             <policy name="valuesettable" value="false"/>
@@ -891,6 +893,6 @@
         <editpolicies>
             <policy name="valuesettable" value="false"/>
         </editpolicies>
-        <property name="DefaltValue" value="57817"/>
+        <property name="DefaltValue" value="1120112"/>
     </variable>
 </projectvariables>

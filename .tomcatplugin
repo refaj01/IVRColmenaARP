@@ -7,5 +7,5 @@
     <updateXml>true</updateXml>
     <warLocation></warLocation>
     <extraInfo></extraInfo>
-    <webPath>/IVRColmenaARP</webPath>
+    <webPath>/IVR_Colmena_Prestadores_V1.0</webPath>
 </tomcatProjectProperties>
